@@ -1,0 +1,3548 @@
+{
+  "character": "jamie",
+  "character_name": {
+    "japanese": "ジェイミー",
+    "english": "Jamie"
+  },
+  "health": 10000,
+  "categories": {
+    "通常技": {
+      "japanese": "通常技",
+      "english": "Normal Attacks",
+      "moves": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        76,
+        77,
+        78,
+        79
+      ]
+    },
+    "特殊技": {
+      "japanese": "特殊技",
+      "english": "Special Normals",
+      "moves": [
+        39,
+        84,
+        86,
+        94,
+        95
+      ]
+    },
+    "必殺技": {
+      "japanese": "必殺技",
+      "english": "Special Moves",
+      "moves": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        80,
+        81,
+        82,
+        83,
+        85,
+        87,
+        92,
+        93,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ]
+    },
+    "スーパーアーツ": {
+      "japanese": "スーパーアーツ",
+      "english": "Super Arts",
+      "moves": [
+        88,
+        89,
+        90,
+        91
+      ]
+    },
+    "通常投げ": {
+      "japanese": "通常投げ",
+      "english": "Throws",
+      "moves": []
+    },
+    "共通システム": {
+      "japanese": "共通システム",
+      "english": "System Mechanics",
+      "moves": []
+    }
+  },
+  "moves": [
+    {
+      "id": 1,
+      "name": {
+        "japanese": "立ち弱P（杯打）弱",
+        "english": "立ち弱P（杯打）弱",
+        "japanese_base": "立ち弱P（杯打）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-6",
+        "recovery": 7,
+        "on_hit": 5,
+        "on_block": 0
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 2,
+      "name": {
+        "japanese": "立ち弱K（頂奏）弱",
+        "english": "立ち弱K（頂奏）弱",
+        "japanese_base": "立ち弱K（頂奏）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-6",
+        "recovery": 11,
+        "on_hit": 3,
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "連打キャンセル対応"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 3,
+      "name": {
+        "japanese": "立ち中P（背束拳）中",
+        "english": "立ち中P（背束拳）中",
+        "japanese_base": "立ち中P（背束拳）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-11",
+        "recovery": 14,
+        "on_hit": 6,
+        "on_block": 2
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -6000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 4,
+      "name": {
+        "japanese": "立ち中K（瞬歩脚）中",
+        "english": "立ち中K（瞬歩脚）中",
+        "japanese_base": "立ち中K（瞬歩脚）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 9,
+        "active": "9-11",
+        "recovery": 17,
+        "on_hit": 2,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "空振り時硬直1F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 5,
+      "name": {
+        "japanese": "立ち強P（連發拳）強",
+        "english": "立ち強P（連發拳）強",
+        "japanese_base": "立ち強P（連發拳）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-145, 7, 12-14",
+        "recovery": 20,
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "持続の1F目までキャンセル可空中ヒット時吹き飛びやられ"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1600
+    },
+    {
+      "id": 6,
+      "name": {
+        "japanese": "立ち強K（魔霞弧）強",
+        "english": "立ち強K（魔霞弧）強",
+        "japanese_base": "立ち強K（魔霞弧）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 15,
+        "active": "15-17",
+        "recovery": 21,
+        "on_hit": 3,
+        "on_block": -5
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "パニッシュカウンター時膝くずれ空中ヒット時吹き飛びやられ"
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 7,
+      "name": {
+        "japanese": "しゃがみ弱P（杯打）弱",
+        "english": "しゃがみ弱P（杯打）弱",
+        "japanese_base": "しゃがみ弱P（杯打）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 4,
+        "active": "4-5",
+        "recovery": 9,
+        "on_hit": 5,
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 250,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "連打キャンセル対応"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 8,
+      "name": {
+        "japanese": "しゃがみ弱K（先歩）弱",
+        "english": "しゃがみ弱K（先歩）弱",
+        "japanese_base": "しゃがみ弱K（先歩）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-6",
+        "recovery": 11,
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 200,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "下",
+        "notes": "連打キャンセル対応"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 9,
+      "name": {
+        "japanese": "しゃがみ中P（透骨拳）中",
+        "english": "しゃがみ中P（透骨拳）中",
+        "japanese_base": "しゃがみ中P（透骨拳）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-8",
+        "recovery": 13,
+        "on_hit": 5,
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "空振り時硬直2F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 10,
+      "name": {
+        "japanese": "しゃがみ中K（膝降蹴）中",
+        "english": "しゃがみ中K（膝降蹴）中",
+        "japanese_base": "しゃがみ中K（膝降蹴）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-9",
+        "recovery": 18,
+        "on_hit": -1,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "下",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 11,
+      "name": {
+        "japanese": "しゃがみ強P（月穿）強",
+        "english": "しゃがみ強P（月穿）強",
+        "japanese_base": "しゃがみ強P（月穿）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-12",
+        "recovery": 23,
+        "on_hit": 0,
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "強制立ち効果持続の2F目までキャンセル可"
+      },
+      "drive_system": {
+        "gain_on_hit": 2500,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 12,
+      "name": {
+        "japanese": "しゃがみ強K（始廻）強",
+        "english": "しゃがみ強K（始廻）強",
+        "japanese_base": "しゃがみ強K（始廻）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 9,
+        "active": "9-159-10, 13-15",
+        "recovery": 28,
+        "on_hit": "D",
+        "on_block": -11
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "※下",
+        "notes": "パニッシュカウンター時ダウン時間増加、ハードノックダウン空中ヒット時吹き飛びやられ※ガード時硬直1F増加※初段がガード時のみ2段目が上段判定"
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 13,
+      "name": {
+        "japanese": "ジャンプ弱P（裏肘落）（ジャンプ中に）弱",
+        "english": "ジャンプ弱P（裏肘落）（ジャンプ中に）弱",
+        "japanese_base": "ジャンプ弱P（裏肘落）（ジャンプ中に）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-13",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "めくり性能"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 14,
+      "name": {
+        "japanese": "ジャンプ弱K（麓刺）（ジャンプ中に）弱",
+        "english": "ジャンプ弱K（麓刺）（ジャンプ中に）弱",
+        "japanese_base": "ジャンプ弱K（麓刺）（ジャンプ中に）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-11",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 15,
+      "name": {
+        "japanese": "ジャンプ中P（雲掴）（ジャンプ中に）中",
+        "english": "ジャンプ中P（雲掴）（ジャンプ中に）中",
+        "japanese_base": "ジャンプ中P（雲掴）（ジャンプ中に）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-10",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "空中ヒット時吹き飛びやられ"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 16,
+      "name": {
+        "japanese": "ジャンプ中K（飛燕腿）（ジャンプ中に）中",
+        "english": "ジャンプ中K（飛燕腿）（ジャンプ中に）中",
+        "japanese_base": "ジャンプ中K（飛燕腿）（ジャンプ中に）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-12",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "めくり性能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 17,
+      "name": {
+        "japanese": "ジャンプ強P（鞭槌打）（ジャンプ中に）強",
+        "english": "ジャンプ強P（鞭槌打）（ジャンプ中に）強",
+        "japanese_base": "ジャンプ強P（鞭槌打）（ジャンプ中に）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-15",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "空中ヒット時叩きつけダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 18,
+      "name": {
+        "japanese": "ジャンプ強K（連空腿）（ジャンプ中に）強",
+        "english": "ジャンプ強K（連空腿）（ジャンプ中に）強",
+        "japanese_base": "ジャンプ強K（連空腿）（ジャンプ中に）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-198-10, 16-19",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中中",
+        "notes": "空中ヒット時吹き飛びやられ"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -2500
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 19,
+      "name": {
+        "japanese": "天晴脚",
+        "english": "天晴脚",
+        "japanese_base": "天晴脚"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 9,
+        "active": "9-11",
+        "recovery": 22,
+        "on_hit": "D",
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "ヒット時のみジャンプキャンセル可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 20,
+      "name": {
+        "japanese": "幻酔舞（2段目）強強",
+        "english": "幻酔舞（2段目）強強",
+        "japanese_base": "幻酔舞（2段目）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 12,
+        "active": "12-14",
+        "recovery": 43,
+        "on_hit": "D",
+        "on_block": -28
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 21,
+      "name": {
+        "japanese": "幻酔舞（3段目）強強",
+        "english": "幻酔舞（3段目）強強",
+        "japanese_base": "幻酔舞（3段目）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 60",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "56F目で酔いLv1上昇酔いLv3以下の時ドライブゲージ2500回復酔いLv4時ドライブゲージ10000回復"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 22,
+      "name": {
+        "japanese": "落星脚中",
+        "english": "落星脚中",
+        "japanese_base": "落星脚中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 22,
+        "active": "22-24",
+        "recovery": 20,
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 23,
+      "name": {
+        "japanese": "仙姑肘強",
+        "english": "仙姑肘強",
+        "japanese_base": "仙姑肘強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 18,
+        "active": "18-21",
+        "recovery": 20,
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "SA",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 24,
+      "name": {
+        "japanese": "旋影脚強",
+        "english": "旋影脚強",
+        "japanese_base": "旋影脚強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "16-18",
+        "recovery": 20,
+        "on_hit": 3,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "SA",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 25,
+      "name": {
+        "japanese": "鋭鍾打（1段目）（酔いLv1以上）弱",
+        "english": "鋭鍾打（1段目）（酔いLv1以上）弱",
+        "japanese_base": "鋭鍾打（1段目）（酔いLv1以上）弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 9,
+        "on_hit": 2,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "酔いLv1以上で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 26,
+      "name": {
+        "japanese": "鋭鍾打（2段目）（酔いLv1以上）弱弱",
+        "english": "鋭鍾打（2段目）（酔いLv1以上）弱弱",
+        "japanese_base": "鋭鍾打（2段目）（酔いLv1以上）弱弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 6,
+        "active": "6-7",
+        "recovery": 16,
+        "on_hit": -3,
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv1以上で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 27,
+      "name": {
+        "japanese": "鋭鍾打（3段目）（酔いLv1以上）弱弱中",
+        "english": "鋭鍾打（3段目）（酔いLv1以上）弱弱中",
+        "japanese_base": "鋭鍾打（3段目）（酔いLv1以上）弱弱中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 8,
+        "active": "8-10",
+        "recovery": 21,
+        "on_hit": -1,
+        "on_block": -10
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv1以上で発動可能※ガード時硬直2F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 28,
+      "name": {
+        "japanese": "円月脚（1段目）中",
+        "english": "円月脚（1段目）中",
+        "japanese_base": "円月脚（1段目）中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 22,
+        "active": "22-24",
+        "recovery": 20,
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 29,
+      "name": {
+        "japanese": "円月脚（2段目）（酔いLv2以上）中中",
+        "english": "円月脚（2段目）（酔いLv2以上）中中",
+        "japanese_base": "円月脚（2段目）（酔いLv2以上）中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 15,
+        "active": "15-2415-17, 23-24",
+        "recovery": 28,
+        "on_hit": "D",
+        "on_block": -14
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv2以上で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 30,
+      "name": {
+        "japanese": "円月脚（3段目）（酔いLv2以上）中中",
+        "english": "円月脚（3段目）（酔いLv2以上）中中",
+        "japanese_base": "円月脚（3段目）（酔いLv2以上）中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 61",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "酔いLv2以上で発動可能54F目で酔いLv1上昇酔いLv3以下の時ドライブゲージ5000回復酔いLv4時ドライブゲージ10000回復"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 31,
+      "name": {
+        "japanese": "酩酊襲（1段目）（酔いLv3以上）強",
+        "english": "酩酊襲（1段目）（酔いLv3以上）強",
+        "japanese_base": "酩酊襲（1段目）（酔いLv3以上）強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 18,
+        "active": "18-20",
+        "recovery": 21,
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "SA",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv3以上で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 32,
+      "name": {
+        "japanese": "酩酊襲（2段目）（酔いLv3以上）強強",
+        "english": "酩酊襲（2段目）（酔いLv3以上）強強",
+        "japanese_base": "酩酊襲（2段目）（酔いLv3以上）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 21,
+        "active": "21-24",
+        "recovery": 20,
+        "on_hit": 1,
+        "on_block": -11
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv3以上で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 33,
+      "name": {
+        "japanese": "酩酊襲（3段目）（酔いLv3以上）強強強",
+        "english": "酩酊襲（3段目）（酔いLv3以上）強強強",
+        "japanese_base": "酩酊襲（3段目）（酔いLv3以上）強強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 21,
+        "active": "21-23",
+        "recovery": 37,
+        "on_hit": "D",
+        "on_block": -20
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv3以上で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 34,
+      "name": {
+        "japanese": "乱酔旋（1段目）（酔いLv4以上）強",
+        "english": "乱酔旋（1段目）（酔いLv4以上）強",
+        "japanese_base": "乱酔旋（1段目）（酔いLv4以上）強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "16-19",
+        "recovery": 19,
+        "on_hit": 3,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 35,
+      "name": {
+        "japanese": "乱酔旋（2段目）（酔いLv4以上）強強",
+        "english": "乱酔旋（2段目）（酔いLv4以上）強強",
+        "japanese_base": "乱酔旋（2段目）（酔いLv4以上）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 75",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "酔いLv4で発動可能空振り時も派生可能動作中攻撃ボタンを入力するタイミングによって派生技の内容が変化する6-25F　乱酔旋1へ派生可能31-55F　乱酔旋2へ派生可能64-80F　乱酔旋3へ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 36,
+      "name": {
+        "japanese": "乱酔旋（3段目/即派生）（酔いLv4以上）強強",
+        "english": "乱酔旋（3段目/即派生）（酔いLv4以上）強強",
+        "japanese_base": "乱酔旋（3段目/即派生）（酔いLv4以上）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 15,
+        "active": "15-18",
+        "recovery": 28,
+        "on_hit": "D",
+        "on_block": -12
+      },
+      "properties": {
+        "damage": 850,
+        "cancel": "C",
+        "combo_scaling": "コンボ補正20%",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 37,
+      "name": {
+        "japanese": "乱酔旋（3段目/ディレイ派生）（酔いLv4以上）強強",
+        "english": "乱酔旋（3段目/ディレイ派生）（酔いLv4以上）強強",
+        "japanese_base": "乱酔旋（3段目/ディレイ派生）（酔いLv4以上）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 4,
+        "active": "4-284-5, 14-15, 27-28",
+        "recovery": 27,
+        "on_hit": "D",
+        "on_block": -9
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 4000,
+        "loss_on_guard": -11000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 38,
+      "name": {
+        "japanese": "乱酔旋（3段目/大幅ディレイ派生）（酔いLv4以上）強強",
+        "english": "乱酔旋（3段目/大幅ディレイ派生）（酔いLv4以上）強強",
+        "japanese_base": "乱酔旋（3段目/大幅ディレイ派生）（酔いLv4以上）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 52",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "酔いLv4で発動可能ドライブゲージ10000回復"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 39,
+      "name": {
+        "japanese": "魔身",
+        "english": "魔身",
+        "japanese_base": "魔身"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 50",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "49F目で酔いLv1上昇酔いLv4時ドライブゲージ5000回復ボタンホールドで動作継続を行い、ホールドした分だけ酔いLvが上昇する1段階ホールドした場合、全体動作が97Fとなる酔いLvが上昇すると、上昇したLvに応じてダメージ倍率が増加して、技が解放される酔いLv毎のダメージ倍率酔いLv0　90%酔いLv1　95%酔いLv2　100%酔いLv3　105%酔いLv4　110%※絶唱魔身中は酔いLv4であるが、ダメージ倍率は105%となる"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 40,
+      "name": {
+        "japanese": "弱 流酔拳（1段目）弱",
+        "english": "弱 流酔拳（1段目）弱",
+        "japanese_base": "弱 流酔拳（1段目）弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 13,
+        "active": "13-14",
+        "recovery": 24,
+        "on_hit": -1,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 350,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 41,
+      "name": {
+        "japanese": "[酔いレベル4]弱 流酔拳（1段目）弱",
+        "english": "[酔いレベル4]弱 流酔拳（1段目）弱",
+        "japanese_base": "[酔いレベル4]弱 流酔拳（1段目）弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 13,
+        "active": "13-2613-14,24-26",
+        "recovery": 19,
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 42,
+      "name": {
+        "japanese": "中 流酔拳（1段目）中",
+        "english": "中 流酔拳（1段目）中",
+        "japanese_base": "中 流酔拳（1段目）中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "16-17",
+        "recovery": 24,
+        "on_hit": -1,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 43,
+      "name": {
+        "japanese": "[酔いレベル4]中 流酔拳（1段目）中",
+        "english": "[酔いレベル4]中 流酔拳（1段目）中",
+        "japanese_base": "[酔いレベル4]中 流酔拳（1段目）中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "16-2916-17,27-29",
+        "recovery": 19,
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 44,
+      "name": {
+        "japanese": "強 流酔拳（1段目）強",
+        "english": "強 流酔拳（1段目）強",
+        "japanese_base": "強 流酔拳（1段目）強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 19,
+        "active": "19-20",
+        "recovery": 24,
+        "on_hit": -1,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 450,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 45,
+      "name": {
+        "japanese": "[酔いレベル4]強 流酔拳（1段目）強",
+        "english": "[酔いレベル4]強 流酔拳（1段目）強",
+        "japanese_base": "[酔いレベル4]強 流酔拳（1段目）強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 19,
+        "active": "19-3219-20,30-32",
+        "recovery": 19,
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 46,
+      "name": {
+        "japanese": "OD 流酔拳（1段目）",
+        "english": "OD 流酔拳（1段目）",
+        "japanese_base": "OD 流酔拳（1段目）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 13,
+        "active": "13-14",
+        "recovery": 24,
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 450,
+        "cancel": "SA2",
+        "combo_scaling": "始動補正25%コンボ補正20%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 47,
+      "name": {
+        "japanese": "[酔いレベル4]OD 流酔拳（1段目）",
+        "english": "[酔いレベル4]OD 流酔拳（1段目）",
+        "japanese_base": "[酔いレベル4]OD 流酔拳（1段目）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 13,
+        "active": "16-2616-17,24-26",
+        "recovery": 19,
+        "on_hit": 3,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA2",
+        "combo_scaling": "始動補正25%コンボ補正20%",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 48,
+      "name": {
+        "japanese": "弱 流酔拳（2段目）弱",
+        "english": "弱 流酔拳（2段目）弱",
+        "japanese_base": "弱 流酔拳（2段目）弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 13,
+        "active": "13-14",
+        "recovery": 28,
+        "on_hit": -3,
+        "on_block": -13
+      },
+      "properties": {
+        "damage": 350,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "空振り時も派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 49,
+      "name": {
+        "japanese": "中 流酔拳（2段目）中",
+        "english": "中 流酔拳（2段目）中",
+        "japanese_base": "中 流酔拳（2段目）中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "16-17",
+        "recovery": 28,
+        "on_hit": -3,
+        "on_block": -11
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "空振り時も派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 50,
+      "name": {
+        "japanese": "強 流酔拳（2段目）強",
+        "english": "強 流酔拳（2段目）強",
+        "japanese_base": "強 流酔拳（2段目）強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 19,
+        "active": "19-20",
+        "recovery": 28,
+        "on_hit": -3,
+        "on_block": -9
+      },
+      "properties": {
+        "damage": 450,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "空振り時も派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 51,
+      "name": {
+        "japanese": "[酔いレベル4]流酔拳（2段目）",
+        "english": "[酔いレベル4]流酔拳（2段目）",
+        "japanese_base": "[酔いレベル4]流酔拳（2段目）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 15,
+        "active": "15-2315-16, 22-23",
+        "recovery": 27,
+        "on_hit": -2,
+        "on_block": -10
+      },
+      "properties": {
+        "damage": 450,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 52,
+      "name": {
+        "japanese": "OD 流酔拳（2段目）",
+        "english": "OD 流酔拳（2段目）",
+        "japanese_base": "OD 流酔拳（2段目）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 13,
+        "active": "13-14",
+        "recovery": 28,
+        "on_hit": -3,
+        "on_block": -9
+      },
+      "properties": {
+        "damage": 450,
+        "cancel": "",
+        "combo_scaling": "始動補正25%",
+        "attribute": "上",
+        "notes": "空振り時も派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 53,
+      "name": {
+        "japanese": "[酔いレベル4]OD 流酔拳（2段目）",
+        "english": "[酔いレベル4]OD 流酔拳（2段目）",
+        "japanese_base": "[酔いレベル4]OD 流酔拳（2段目）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 15,
+        "active": "15-2315-16, 22-23",
+        "recovery": 27,
+        "on_hit": -2,
+        "on_block": -10
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "始動補正25%",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 54,
+      "name": {
+        "japanese": "弱 流酔拳（3段目）弱",
+        "english": "弱 流酔拳（3段目）弱",
+        "japanese_base": "弱 流酔拳（3段目）弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 13,
+        "active": "13-14",
+        "recovery": 30,
+        "on_hit": "D",
+        "on_block": -17
+      },
+      "properties": {
+        "damage": 550,
+        "cancel": "SA3",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "空振り時も派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 400
+    },
+    {
+      "id": 55,
+      "name": {
+        "japanese": "中 流酔拳（3段目）中",
+        "english": "中 流酔拳（3段目）中",
+        "japanese_base": "中 流酔拳（3段目）中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "16-17",
+        "recovery": 30,
+        "on_hit": "D",
+        "on_block": -15
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "空振り時も派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 400
+    },
+    {
+      "id": 56,
+      "name": {
+        "japanese": "強 流酔拳（3段目）強",
+        "english": "強 流酔拳（3段目）強",
+        "japanese_base": "強 流酔拳（3段目）強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 19,
+        "active": "19-20",
+        "recovery": 30,
+        "on_hit": "D",
+        "on_block": -13
+      },
+      "properties": {
+        "damage": 650,
+        "cancel": "SA3",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "空振り時も派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 400
+    },
+    {
+      "id": 57,
+      "name": {
+        "japanese": "[酔いレベル4]流酔拳（3段目）",
+        "english": "[酔いレベル4]流酔拳（3段目）",
+        "japanese_base": "[酔いレベル4]流酔拳（3段目）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "16-4016-17,22-23, 38-40",
+        "recovery": 28,
+        "on_hit": "D",
+        "on_block": -14
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -4500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 1400
+    },
+    {
+      "id": 58,
+      "name": {
+        "japanese": "OD 流酔拳（3段目）",
+        "english": "OD 流酔拳（3段目）",
+        "japanese_base": "OD 流酔拳（3段目）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 13,
+        "active": "13-14",
+        "recovery": 30,
+        "on_hit": "D",
+        "on_block": -13
+      },
+      "properties": {
+        "damage": 750,
+        "cancel": "SA2",
+        "combo_scaling": "始動補正25%",
+        "attribute": "上",
+        "notes": "空振り時も派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 400
+    },
+    {
+      "id": 59,
+      "name": {
+        "japanese": "[酔いレベル4]OD 流酔拳（3段目）",
+        "english": "[酔いレベル4]OD 流酔拳（3段目）",
+        "japanese_base": "[酔いレベル4]OD 流酔拳（3段目）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "16-4016-17,22-23, 38-40",
+        "recovery": 28,
+        "on_hit": "D",
+        "on_block": -14
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "SA2",
+        "combo_scaling": "始動補正25%",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -4500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 900
+    },
+    {
+      "id": 60,
+      "name": {
+        "japanese": "弱 流酔脚（2段目）弱",
+        "english": "弱 流酔脚（2段目）弱",
+        "japanese_base": "弱 流酔脚（2段目）弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 14,
+        "active": "14-15",
+        "recovery": 32,
+        "on_hit": -7,
+        "on_block": -15
+      },
+      "properties": {
+        "damage": 250,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 61,
+      "name": {
+        "japanese": "中 流酔脚（2段目）中",
+        "english": "中 流酔脚（2段目）中",
+        "japanese_base": "中 流酔脚（2段目）中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 17,
+        "active": "17-18",
+        "recovery": 32,
+        "on_hit": -7,
+        "on_block": -15
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 62,
+      "name": {
+        "japanese": "強 流酔脚（2段目）強",
+        "english": "強 流酔脚（2段目）強",
+        "japanese_base": "強 流酔脚（2段目）強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 20,
+        "active": "20-21",
+        "recovery": 32,
+        "on_hit": -7,
+        "on_block": -15
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 63,
+      "name": {
+        "japanese": "OD 流酔脚（2段目）",
+        "english": "OD 流酔脚（2段目）",
+        "japanese_base": "OD 流酔脚（2段目）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 14,
+        "active": "14-15",
+        "recovery": 32,
+        "on_hit": -7,
+        "on_block": -15
+      },
+      "properties": {
+        "damage": 350,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 64,
+      "name": {
+        "japanese": "弱 流酔脚（3段目）弱",
+        "english": "弱 流酔脚（3段目）弱",
+        "japanese_base": "弱 流酔脚（3段目）弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 18,
+        "active": "18-19",
+        "recovery": 64,
+        "on_hit": "D",
+        "on_block": -49
+      },
+      "properties": {
+        "damage": 450,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "55F目で酔いLv1上昇酔いLv3以下の時ドライブゲージ5000回復酔いLv4時ドライブゲージ10000回復"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 400
+    },
+    {
+      "id": 65,
+      "name": {
+        "japanese": "中 流酔脚（3段目）中",
+        "english": "中 流酔脚（3段目）中",
+        "japanese_base": "中 流酔脚（3段目）中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 21,
+        "active": "21-22",
+        "recovery": 64,
+        "on_hit": "D",
+        "on_block": -49
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "59F目で酔いLv1上昇酔いLv3以下の時ドライブゲージ5000回復酔いLv4時ドライブゲージ10000回復"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 400
+    },
+    {
+      "id": 66,
+      "name": {
+        "japanese": "強 流酔脚（3段目）強",
+        "english": "強 流酔脚（3段目）強",
+        "japanese_base": "強 流酔脚（3段目）強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 24,
+        "active": "24-25",
+        "recovery": 64,
+        "on_hit": "D",
+        "on_block": -49
+      },
+      "properties": {
+        "damage": 550,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "62F目で酔いLv1上昇酔いLv3以下の時ドライブゲージ5000回復酔いLv4時ドライブゲージ10000回復"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 400
+    },
+    {
+      "id": 67,
+      "name": {
+        "japanese": "OD 流酔脚（3段目）",
+        "english": "OD 流酔脚（3段目）",
+        "japanese_base": "OD 流酔脚（3段目）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 18,
+        "active": "18-19",
+        "recovery": 64,
+        "on_hit": "D",
+        "on_block": -49
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "56F目で酔いLv1上昇酔いLv3以下の時ドライブゲージ5000回復酔いLv4時ドライブゲージ10000回復"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 400
+    },
+    {
+      "id": 68,
+      "name": {
+        "japanese": "弱 酔疾歩弱",
+        "english": "弱 酔疾歩弱",
+        "japanese_base": "弱 酔疾歩弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 17,
+        "active": "17-25",
+        "recovery": 17,
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 69,
+      "name": {
+        "japanese": "中 酔疾歩中",
+        "english": "中 酔疾歩中",
+        "japanese_base": "中 酔疾歩中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 20,
+        "active": "20-28",
+        "recovery": 17,
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 70,
+      "name": {
+        "japanese": "強 酔疾歩強",
+        "english": "強 酔疾歩強",
+        "japanese_base": "強 酔疾歩強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 25,
+        "active": "25-33",
+        "recovery": 16,
+        "on_hit": "D",
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 71,
+      "name": {
+        "japanese": "OD 酔疾歩",
+        "english": "OD 酔疾歩",
+        "japanese_base": "OD 酔疾歩"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 20,
+        "active": "20-28",
+        "recovery": 15,
+        "on_hit": "D",
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 1100,
+        "cancel": "SA2",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "パニッシュカウンター時のみ壁やられ"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 72,
+      "name": {
+        "japanese": "弱 張弓腿弱",
+        "english": "弱 張弓腿弱",
+        "japanese_base": "弱 張弓腿弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-505-14, 41-50",
+        "recovery": 52,
+        "on_hit": "D",
+        "on_block": -45
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "",
+        "combo_scaling": "始動補正30%",
+        "attribute": "上",
+        "notes": "1-12F　空中判定の打撃・空弾属性に対して無敵※2段目以降は初段ヒット時のみ派生"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 73,
+      "name": {
+        "japanese": "中 張弓腿中",
+        "english": "中 張弓腿中",
+        "japanese_base": "中 張弓腿中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 8,
+        "active": "8-438-16, 39-43",
+        "recovery": 51,
+        "on_hit": "D",
+        "on_block": -43
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "1-14F　空中判定の打撃・空弾属性に対して無敵※2段目以降は初段ヒット時のみ派生"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 74,
+      "name": {
+        "japanese": "強 張弓腿強",
+        "english": "強 張弓腿強",
+        "japanese_base": "強 張弓腿強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": "10-5710-18, 41-45, 54-57",
+        "recovery": 51,
+        "on_hit": "D",
+        "on_block": -43
+      },
+      "properties": {
+        "damage": 1400,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "1-16F　空中判定の打撃・空弾属性に対して無敵※2段目以降は初段ヒット時のみ派生"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 75,
+      "name": {
+        "japanese": "OD 張弓腿",
+        "english": "OD 張弓腿",
+        "japanese_base": "OD 張弓腿"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 6,
+        "active": "6-516-12, 37-38, 50-51",
+        "recovery": 53,
+        "on_hit": "D",
+        "on_block": -43
+      },
+      "properties": {
+        "damage": 1500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "1-9F　完全無敵10-12F　空中判定の打撃・空弾属性に対して無敵※2段目以降は初段ヒット時のみ派生"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -4000,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 76,
+      "name": {
+        "japanese": "弱 無影蹴（酔いLv1以上）（前ジャンプ中に）弱",
+        "english": "弱 無影蹴（酔いLv1以上）（前ジャンプ中に）弱",
+        "japanese_base": "弱 無影蹴（酔いLv1以上）（前ジャンプ中に）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 11,
+        "active": "11-着地まで11,14-着地まで",
+        "recovery": "着地後13",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv1以上で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 77,
+      "name": {
+        "japanese": "中 無影蹴（酔いLv1以上）（前ジャンプ中に）中",
+        "english": "中 無影蹴（酔いLv1以上）（前ジャンプ中に）中",
+        "japanese_base": "中 無影蹴（酔いLv1以上）（前ジャンプ中に）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 11,
+        "active": "11-着地まで11,14-着地まで",
+        "recovery": "着地後13",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv1以上で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 78,
+      "name": {
+        "japanese": "強 無影蹴（酔いLv1以上）（前ジャンプ中に）強",
+        "english": "強 無影蹴（酔いLv1以上）（前ジャンプ中に）強",
+        "japanese_base": "強 無影蹴（酔いLv1以上）（前ジャンプ中に）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 11,
+        "active": "11-着地まで11,14-着地まで",
+        "recovery": "着地後13",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv1以上で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 79,
+      "name": {
+        "japanese": "OD 無影蹴（酔いLv1以上）（前ジャンプ中に）",
+        "english": "OD 無影蹴（酔いLv1以上）（前ジャンプ中に）",
+        "japanese_base": "OD 無影蹴（酔いLv1以上）（前ジャンプ中に）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 11,
+        "active": "11-着地まで11,14-着地まで",
+        "recovery": "着地後13",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "始動補正20%即時補正10%",
+        "attribute": "上",
+        "notes": "酔いLv1以上で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 80,
+      "name": {
+        "japanese": "弱 爆廻（酔いLv2以上）弱",
+        "english": "弱 爆廻（酔いLv2以上）弱",
+        "japanese_base": "弱 爆廻（酔いLv2以上）弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 18,
+        "active": "18-4318-19, 22-24, 29-30, 42-43",
+        "recovery": 24,
+        "on_hit": "D",
+        "on_block": -12
+      },
+      "properties": {
+        "damage": 1400,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv2以上で発動可能3-24F　飛び道具に対して無敵最終段のみSA3/CAでキャンセル可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 2800,
+        "loss_on_guard": -3500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 81,
+      "name": {
+        "japanese": "中 爆廻（酔いLv2以上）中",
+        "english": "中 爆廻（酔いLv2以上）中",
+        "japanese_base": "中 爆廻（酔いLv2以上）中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 22,
+        "active": "22-5922-23, 25-26, 30-31, 37-38, 51-52, 58-59",
+        "recovery": 31,
+        "on_hit": "D",
+        "on_block": -16
+      },
+      "properties": {
+        "damage": 1600,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv2以上で発動可能4-26F　飛び道具に対して無敵最終段のみSA3/CAでキャンセル可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 4200,
+        "loss_on_guard": -4500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 3000
+    },
+    {
+      "id": 82,
+      "name": {
+        "japanese": "強 爆廻（酔いLv2以上）強",
+        "english": "強 爆廻（酔いLv2以上）強",
+        "japanese_base": "強 爆廻（酔いLv2以上）強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 25,
+        "active": "25-9225-27, 34-35, 42-43, 50-51, 65-66, 74-75, 91-92",
+        "recovery": 32,
+        "on_hit": "D",
+        "on_block": -17
+      },
+      "properties": {
+        "damage": 1800,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "酔いLv2以上で発動可能5-33F　飛び道具に対して無敵最終段のみSA3/CAでキャンセル可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 4900,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 3500
+    },
+    {
+      "id": 83,
+      "name": {
+        "japanese": "OD 爆廻（酔いLv2以上）",
+        "english": "OD 爆廻（酔いLv2以上）",
+        "japanese_base": "OD 爆廻（酔いLv2以上）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 21,
+        "active": "21-10021-23, 27-28, 37-38, 42-43, 51-52, 60-61, 74-75, 87-88, 93-94, 99-100",
+        "recovery": 62,
+        "on_hit": "D",
+        "on_block": -46
+      },
+      "properties": {
+        "damage": 2000,
+        "cancel": "SA2",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "3-28F　飛び道具に対して無敵7段目のみSA3/CAでキャンセル可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -6500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 3200
+    },
+    {
+      "id": 84,
+      "name": {
+        "japanese": "点辰（酔いLv3以上）（近距離で）",
+        "english": "点辰（酔いLv3以上）（近距離で）",
+        "japanese_base": "点辰（酔いLv3以上）（近距離で）"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-9",
+        "recovery": 52,
+        "on_hit": 8,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "※即時補正20%",
+        "attribute": "投",
+        "notes": "酔いLv3以上で発動可能※コンボの3段目以降に補正がかかる"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 85,
+      "name": {
+        "japanese": "OD 点辰（酔いLv3以上）（近距離で）",
+        "english": "OD 点辰（酔いLv3以上）（近距離で）",
+        "japanese_base": "OD 点辰（酔いLv3以上）（近距離で）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 8,
+        "active": "8-9",
+        "recovery": 52,
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 650,
+        "cancel": "",
+        "combo_scaling": "始動補正30%",
+        "attribute": "投",
+        "notes": "酔いLv3以上で発動可能ヒット時膝崩れ■クラシック操作パニッシュカウンター時個別ダメージ（784）■モダン操作時パニッシュカウンター時個別ダメージ（627）"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 86,
+      "name": {
+        "japanese": "疾歩仙掌（酔いLv4以上）",
+        "english": "疾歩仙掌（酔いLv4以上）",
+        "japanese_base": "疾歩仙掌（酔いLv4以上）"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": 19,
+        "active": "19-21",
+        "recovery": 39,
+        "on_hit": "D",
+        "on_block": -23
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "SA3",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 87,
+      "name": {
+        "japanese": "OD 疾歩仙掌（酔いLv4以上）",
+        "english": "OD 疾歩仙掌（酔いLv4以上）",
+        "japanese_base": "OD 疾歩仙掌（酔いLv4以上）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 19,
+        "active": "19-21",
+        "recovery": 39,
+        "on_hit": "D",
+        "on_block": -23
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "SA2",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "酔いLv4で発動可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 88,
+      "name": {
+        "japanese": "SA1 武麗禽",
+        "english": "SA1 武麗禽",
+        "japanese_base": "SA1 武麗禽"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 8,
+        "active": "8-1338-16, 23-27, 34-35, 43-44, 52-53, 60-61, 68-69, 75-76, 106-107, 117-118, 125-126, 132-133",
+        "recovery": "74※107",
+        "on_hit": "D",
+        "on_block": "-60※-93"
+      },
+      "properties": {
+        "damage": "2200※1850",
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "1-12　打撃・投げに対して無敵最低保障ダメージ30％カウンター/パニッシュカウンターで数値が変動しない※動作中に、下方向を入力し続けると性質が変化し、酔いLvが1上昇する。"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 89,
+      "name": {
+        "japanese": "SA2 絶唱魔身",
+        "english": "SA2 絶唱魔身",
+        "japanese_base": "SA2 絶唱魔身"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 6",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "発動後、一定時間酔いLv4状態となる（ただし、ダメージ倍率は105%）効果時間900F酔いLv4時に発動するとドライブゲージ30000回復"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 90,
+      "name": {
+        "japanese": "SA3 月牙叉炮",
+        "english": "SA3 月牙叉炮",
+        "japanese_base": "SA3 月牙叉炮"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 10,
+        "active": "10-2810-12, 26-28",
+        "recovery": 42,
+        "on_hit": "D",
+        "on_block": -27
+      },
+      "properties": {
+        "damage": 2600,
+        "cancel": "",
+        "combo_scaling": "※即時補正10％コンボ補正20%",
+        "attribute": "上",
+        "notes": "1-12F　完全無敵最低保障ダメージ50％カウンター/パニッシュカウンターで数値が変動しないハードノックダウン※必殺技キャンセル時のみ適用"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -7500,
+        "loss_on_punish": -15000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 91,
+      "name": {
+        "japanese": "CA 月牙叉炮（体力25%以下で）",
+        "english": "CA 月牙叉炮（体力25%以下で）",
+        "japanese_base": "CA 月牙叉炮（体力25%以下で）"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 10,
+        "active": "10-2810-12, 26-28",
+        "recovery": 42,
+        "on_hit": "D",
+        "on_block": -27
+      },
+      "properties": {
+        "damage": 4500,
+        "cancel": "",
+        "combo_scaling": "※即時補正10％",
+        "attribute": "上",
+        "notes": "1-12F　完全無敵最低保障ダメージ50％カウンター/パニッシュカウンターで数値が変動しないハードノックダウン※必殺技キャンセル時のみ適用"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -10000,
+        "loss_on_punish": -20000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 92,
+      "name": {
+        "japanese": "背剪手（近距離で）弱弱",
+        "english": "背剪手（近距離で）弱弱",
+        "japanese_base": "背剪手（近距離で）弱弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 23,
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "即時補正20%",
+        "attribute": "投",
+        "notes": "パニッシュカウンター時以下の性能変化・ダメージ2040・SAゲージ4000増加・ハードノックダウン※動作中ボタンホールドで性質が変化し、酔いLvが1上昇する。"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": 0,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 93,
+      "name": {
+        "japanese": "転輪衝（近距離で）弱弱",
+        "english": "転輪衝（近距離で）弱弱",
+        "japanese_base": "転輪衝（近距離で）弱弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 23,
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "即時補正20%",
+        "attribute": "投",
+        "notes": "パニッシュカウンター時以下の性能変化・ダメージ2040・SAゲージ4000増加・ハードノックダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": 0,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 94,
+      "name": {
+        "japanese": "前方ステップ",
+        "english": "前方ステップ",
+        "japanese_base": "前方ステップ"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 19",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 95,
+      "name": {
+        "japanese": "後方ステップ",
+        "english": "後方ステップ",
+        "japanese_base": "後方ステップ"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 23",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "1-15F　投げ無敵"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 96,
+      "name": {
+        "japanese": "ドライブインパクト（独尊撃）強強",
+        "english": "ドライブインパクト（独尊撃）強強",
+        "japanese_base": "ドライブインパクト（独尊撃）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 26,
+        "active": "26-27",
+        "recovery": 35,
+        "on_hit": "D",
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "1-27F　 アーマー判定（2回）パニッシュカウンター、もしくはアーマー成立後にヒットで以下の性能変化・地上ヒット膝崩れ・空中ヒットきりもみダウン・SAゲージ3000増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -15000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 97,
+      "name": {
+        "japanese": "[ガード時]ドライブリバーサル（空掃腿）（ガード中 or ドライブパリィ成立中に）強強",
+        "english": "[ガード時]ドライブリバーサル（空掃腿）（ガード中 or ドライブパリィ成立中に）強強",
+        "japanese_base": "[ガード時]ドライブリバーサル（空掃腿）（ガード中 or ドライブパリィ成立中に）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 20,
+        "active": "20-22",
+        "recovery": 26,
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "リカバリアブルダメージ1-22F完全無敵ヒット時硬直が5F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 98,
+      "name": {
+        "japanese": "[起き上がり時]ドライブリバーサル（空掃腿）（起き上がり時に）強強",
+        "english": "[起き上がり時]ドライブリバーサル（空掃腿）（起き上がり時に）強強",
+        "japanese_base": "[起き上がり時]ドライブリバーサル（空掃腿）（起き上がり時に）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 18,
+        "active": "18-20",
+        "recovery": 26,
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "リカバリアブルダメージ1-20F 完全無敵ヒット時硬直5F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 99,
+      "name": {
+        "japanese": "ドライブパリィ中中",
+        "english": "ドライブパリィ中中",
+        "japanese_base": "ドライブパリィ中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 1,
+        "active": "[※2] 1-12",
+        "recovery": 33,
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "※1",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "※1 動作の4F目からドライブラッシュでキャンセル可※2 ボタンホールドでパリィの持続を延長可硬直部分はガードのみ可動作中常に被パニッシュカウンター判定"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 100,
+      "name": {
+        "japanese": "ジャストパリィ（打撃）ガード方向中中",
+        "english": "ジャストパリィ（打撃）ガード方向中中",
+        "japanese_base": "ジャストパリィ（打撃）ガード方向中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 1,
+        "active": null,
+        "recovery": 1,
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "始動補正50％",
+        "attribute": "",
+        "notes": "相手の攻撃に対応した方向入力を行った状態でパリィを入力し、入力したフレーム、もしくはその次のフレームで攻撃を受けると成立する（上段/中段攻撃に対して←方向、下段攻撃に対しては↙方向)方向が正しくなかった場合は通常のドライブパリィとなり、追加でDゲージが3000増加する硬直終了から5Fの間完全無敵 （パリィを継続した場合は無敵にならない）ジャストパリィを取られた側はキャンセルが出来なくなり、動作終了まで強制パニッシュカウンター"
+      },
+      "drive_system": {
+        "gain_on_hit": null,
+        "loss_on_guard": null,
+        "loss_on_punish": null
+      },
+      "sa_gain": null
+    },
+    {
+      "id": 101,
+      "name": {
+        "japanese": "ジャストパリィ（飛び道具）中中",
+        "english": "ジャストパリィ（飛び道具）中中",
+        "japanese_base": "ジャストパリィ（飛び道具）中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 1,
+        "active": null,
+        "recovery": 10,
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "始動補正50％",
+        "attribute": "",
+        "notes": "パリィを入力したフレーム、もしくはその次のフレームで攻撃を受けると成立する暗転演出が入らないジャストパリィを取られた側はキャンセルが出来なくなり、動作終了まで強制パニッシュカウンター"
+      },
+      "drive_system": {
+        "gain_on_hit": null,
+        "loss_on_guard": null,
+        "loss_on_punish": null
+      },
+      "sa_gain": null
+    },
+    {
+      "id": 102,
+      "name": {
+        "japanese": "パリィドライブラッシュ（ドライブパリィ中に）",
+        "english": "パリィドライブラッシュ（ドライブパリィ中に）",
+        "japanese_base": "パリィドライブラッシュ（ドライブパリィ中に）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 45",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "※",
+        "combo_scaling": "乗算補正15％",
+        "attribute": "",
+        "notes": "暗転10F※動作9F目から攻撃行動にキャンセル可24F目からパリィ以外の行動でキャンセル可"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 103,
+      "name": {
+        "japanese": "キャンセルドライブラッシュ（必殺技キャンセル可能な攻撃ヒット中に）()中中",
+        "english": "キャンセルドライブラッシュ（必殺技キャンセル可能な攻撃ヒット中に）()中中",
+        "japanese_base": "キャンセルドライブラッシュ（必殺技キャンセル可能な攻撃ヒット中に）()中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 46",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "※",
+        "combo_scaling": "乗算補正15％",
+        "attribute": "",
+        "notes": "暗転9F※動作10F目から攻撃行動にキャンセル可25F目からパリィ以外の行動でキャンセル可"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    }
+  ]
+}

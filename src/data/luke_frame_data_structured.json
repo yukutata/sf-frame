@@ -1,0 +1,2257 @@
+{
+  "character": "luke",
+  "character_name": {
+    "japanese": "ルーク",
+    "english": "Luke"
+  },
+  "health": 10000,
+  "categories": {
+    "通常技": {
+      "japanese": "通常技",
+      "english": "Normal Attacks",
+      "moves": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "特殊技": {
+      "japanese": "特殊技",
+      "english": "Special Normals",
+      "moves": [
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    "必殺技": {
+      "japanese": "必殺技",
+      "english": "Special Moves",
+      "moves": [
+        30,
+        31,
+        32,
+        33,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        47,
+        48,
+        49,
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    "スーパーアーツ": {
+      "japanese": "スーパーアーツ",
+      "english": "Super Arts",
+      "moves": [
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    "通常投げ": {
+      "japanese": "通常投げ",
+      "english": "Throws",
+      "moves": []
+    },
+    "共通システム": {
+      "japanese": "共通システム",
+      "english": "System Mechanics",
+      "moves": [
+        19,
+        20,
+        21,
+        26,
+        27,
+        28,
+        29,
+        34,
+        46,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        60,
+        65
+      ]
+    }
+  },
+  "moves": [
+    {
+      "id": 1,
+      "name": {
+        "japanese": "立ち弱P（ファーストスティンガー）",
+        "english": "立ち弱P（ファーストスティンガー）",
+        "japanese_base": "立ち弱P（ファーストスティンガー）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-8",
+        "recovery": "※11",
+        "on_hit": 2,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 2,
+      "name": {
+        "japanese": "立ち弱K（レッグハント）",
+        "english": "立ち弱K（レッグハント）",
+        "japanese_base": "立ち弱K（レッグハント）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-6",
+        "recovery": "12",
+        "on_hit": 3,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 3,
+      "name": {
+        "japanese": "立ち中P（トリガーフィスト）",
+        "english": "立ち中P（トリガーフィスト）",
+        "japanese_base": "立ち中P（トリガーフィスト）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 9,
+        "active": "9-12",
+        "recovery": "16",
+        "on_hit": 2,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 4,
+      "name": {
+        "japanese": "立ち中K（アンブッシュスピア）",
+        "english": "立ち中K（アンブッシュスピア）",
+        "japanese_base": "立ち中K（アンブッシュスピア）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-10",
+        "recovery": "※16",
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -6000
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 5,
+      "name": {
+        "japanese": "立ち強P（クラッシャー）",
+        "english": "立ち強P（クラッシャー）",
+        "japanese_base": "立ち強P（クラッシャー）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-12",
+        "recovery": "23",
+        "on_hit": 1,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 6,
+      "name": {
+        "japanese": "立ち強K（キャノンボール）",
+        "english": "立ち強K（キャノンボール）",
+        "japanese_base": "立ち強K（キャノンボール）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-16",
+        "recovery": "16",
+        "on_hit": 2,
+        "on_block": -5
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 4000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 7,
+      "name": {
+        "japanese": "しゃがみ弱P（ファストジャブ）",
+        "english": "しゃがみ弱P（ファストジャブ）",
+        "japanese_base": "しゃがみ弱P（ファストジャブ）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 4,
+        "active": "4-5",
+        "recovery": "10",
+        "on_hit": 4,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 8,
+      "name": {
+        "japanese": "しゃがみ弱K（アンクルスナイプ）",
+        "english": "しゃがみ弱K（アンクルスナイプ）",
+        "japanese_base": "しゃがみ弱K（アンクルスナイプ）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": "11",
+        "on_hit": 0,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 200,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "下",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 9,
+      "name": {
+        "japanese": "しゃがみ中P（スラッグショット）",
+        "english": "しゃがみ中P（スラッグショット）",
+        "japanese_base": "しゃがみ中P（スラッグショット）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-7",
+        "recovery": "※14",
+        "on_hit": 5,
+        "on_block": 1
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "始動補正15%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 10,
+      "name": {
+        "japanese": "しゃがみ中K（カーフスカッシュ）",
+        "english": "しゃがみ中K（カーフスカッシュ）",
+        "japanese_base": "しゃがみ中K（カーフスカッシュ）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-10",
+        "recovery": "19",
+        "on_hit": -2,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "下",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 11,
+      "name": {
+        "japanese": "しゃがみ強P（アンチエアランチャー）",
+        "english": "しゃがみ強P（アンチエアランチャー）",
+        "japanese_base": "しゃがみ強P（アンチエアランチャー）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-11",
+        "recovery": "24",
+        "on_hit": 1,
+        "on_block": -13
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "C",
+        "combo_scaling": "コンボ補正15%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 12,
+      "name": {
+        "japanese": "しゃがみ強K（トレンチブレイク）",
+        "english": "しゃがみ強K（トレンチブレイク）",
+        "japanese_base": "しゃがみ強K（トレンチブレイク）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-12",
+        "recovery": "24",
+        "on_hit": "D",
+        "on_block": -9
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "下",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 13,
+      "name": {
+        "japanese": "ジャンプ弱P（ワンバレット）",
+        "english": "ジャンプ弱P（ワンバレット）",
+        "japanese_base": "ジャンプ弱P（ワンバレット）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-13",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 14,
+      "name": {
+        "japanese": "ジャンプ弱K（デルタニー）",
+        "english": "ジャンプ弱K（デルタニー）",
+        "japanese_base": "ジャンプ弱K（デルタニー）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-11",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 15,
+      "name": {
+        "japanese": "ジャンプ中P（エア・インターセプター）",
+        "english": "ジャンプ中P（エア・インターセプター）",
+        "japanese_base": "ジャンプ中P（エア・インターセプター）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 9,
+        "active": "9-12",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 16,
+      "name": {
+        "japanese": "ジャンプ中K（バーチカルテイル）",
+        "english": "ジャンプ中K（バーチカルテイル）",
+        "japanese_base": "ジャンプ中K（バーチカルテイル）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-12",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 17,
+      "name": {
+        "japanese": "ジャンプ強P（ガンメタルハンマー）",
+        "english": "ジャンプ強P（ガンメタルハンマー）",
+        "japanese_base": "ジャンプ強P（ガンメタルハンマー）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 9,
+        "active": "9-14",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 18,
+      "name": {
+        "japanese": "ジャンプ強K（ヘブンリーストライク）",
+        "english": "ジャンプ強K（ヘブンリーストライク）",
+        "japanese_base": "ジャンプ強K（ヘブンリーストライク）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-15",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 19,
+      "name": {
+        "japanese": "ローハイド",
+        "english": "ローハイド",
+        "japanese_base": "ローハイド"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 21,
+        "active": "21-22",
+        "recovery": "21",
+        "on_hit": 2,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 20,
+      "name": {
+        "japanese": "サプレッサー",
+        "english": "サプレッサー",
+        "japanese_base": "サプレッサー"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 16,
+        "active": "16-18",
+        "recovery": "20",
+        "on_hit": 3,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 21,
+      "name": {
+        "japanese": "アウトローキック",
+        "english": "アウトローキック",
+        "japanese_base": "アウトローキック"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 12,
+        "active": "12-15",
+        "recovery": "24",
+        "on_hit": 4,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 22,
+      "name": {
+        "japanese": "ダブルインパクト（1段目）",
+        "english": "ダブルインパクト（1段目）",
+        "japanese_base": "ダブルインパクト（1段目）"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": 16,
+        "active": "16-18",
+        "recovery": "※15",
+        "on_hit": 3,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 23,
+      "name": {
+        "japanese": "ダブルインパクト（2段目）",
+        "english": "ダブルインパクト（2段目）",
+        "japanese_base": "ダブルインパクト（2段目）"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": 11,
+        "active": "11-12",
+        "recovery": "34",
+        "on_hit": "D",
+        "on_block": -19
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "コンボ補正20%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 24,
+      "name": {
+        "japanese": "トリプルインパクト（2段目）",
+        "english": "トリプルインパクト（2段目）",
+        "japanese_base": "トリプルインパクト（2段目）"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-11",
+        "recovery": "20",
+        "on_hit": -2,
+        "on_block": -9
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 400
+    },
+    {
+      "id": 25,
+      "name": {
+        "japanese": "トリプルインパクト（3段目）",
+        "english": "トリプルインパクト（3段目）",
+        "japanese_base": "トリプルインパクト（3段目）"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-12",
+        "recovery": "27",
+        "on_hit": "D",
+        "on_block": -14
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 400
+    },
+    {
+      "id": 26,
+      "name": {
+        "japanese": "スナップバックコンボ（2段目）",
+        "english": "スナップバックコンボ（2段目）",
+        "japanese_base": "スナップバックコンボ（2段目）"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 12,
+        "active": "12-13",
+        "recovery": "23",
+        "on_hit": 0,
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "SA",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 400,
+        "loss_on_guard": -1000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 27,
+      "name": {
+        "japanese": "ノーズブレイカー",
+        "english": "ノーズブレイカー",
+        "japanese_base": "ノーズブレイカー"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 9,
+        "active": "9-11",
+        "recovery": "25",
+        "on_hit": 2,
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 28,
+      "name": {
+        "japanese": "スナップバックコンボ（3段目）",
+        "english": "スナップバックコンボ（3段目）",
+        "japanese_base": "スナップバックコンボ（3段目）"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 11,
+        "active": "11-12",
+        "recovery": "29",
+        "on_hit": -6,
+        "on_block": -14
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -1000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 29,
+      "name": {
+        "japanese": "スナップバックコンボ（4段目）",
+        "english": "スナップバックコンボ（4段目）",
+        "japanese_base": "スナップバックコンボ（4段目）"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 11,
+        "active": "11-12",
+        "recovery": "27",
+        "on_hit": "D",
+        "on_block": -12
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 30,
+      "name": {
+        "japanese": "弱 サンドブラスト",
+        "english": "サンドブラスト",
+        "japanese_base": "弱 サンドブラスト"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 14,
+        "active": "14-18",
+        "recovery": "全体 47",
+        "on_hit": -3,
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 31,
+      "name": {
+        "japanese": "中 サンドブラスト",
+        "english": "サンドブラスト",
+        "japanese_base": "中 サンドブラスト"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 17,
+        "active": "17-23",
+        "recovery": "全体 47",
+        "on_hit": 0,
+        "on_block": -5
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 32,
+      "name": {
+        "japanese": "強 サンドブラスト",
+        "english": "サンドブラスト",
+        "japanese_base": "強 サンドブラスト"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 20,
+        "active": "20-29",
+        "recovery": "全体 47",
+        "on_hit": 3,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 33,
+      "name": {
+        "japanese": "OD サンドブラスト",
+        "english": "サンドブラスト",
+        "japanese_base": "OD サンドブラスト"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "",
+        "recovery": "全体 40",
+        "on_hit": "D",
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "SA2",
+        "combo_scaling": "始動補正20％コンボ補正20％",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 34,
+      "name": {
+        "japanese": "フェイタルショット",
+        "english": "フェイタルショット",
+        "japanese_base": "フェイタルショット"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 8,
+        "active": "",
+        "recovery": "全体 50",
+        "on_hit": "D",
+        "on_block": -21
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "SA2",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -1000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 35,
+      "name": {
+        "japanese": "弱 フラッシュナックル",
+        "english": "フラッシュナックル",
+        "japanese_base": "弱 フラッシュナックル"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 13,
+        "active": "13-15",
+        "recovery": "31",
+        "on_hit": "D",
+        "on_block": -18
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 36,
+      "name": {
+        "japanese": "弱 フラッシュナックル（ホールド）",
+        "english": "フラッシュナックル（ホールド）",
+        "japanese_base": "弱 フラッシュナックル（ホールド）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 26,
+        "active": "26-29",
+        "recovery": "25",
+        "on_hit": "D",
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2250,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -6000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 37,
+      "name": {
+        "japanese": "弱 フラッシュナックル（ジャスト）",
+        "english": "フラッシュナックル（ジャスト）",
+        "japanese_base": "弱 フラッシュナックル（ジャスト）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 26,
+        "active": "26-29",
+        "recovery": "25",
+        "on_hit": "D",
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2250,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -6000
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 38,
+      "name": {
+        "japanese": "中 フラッシュナックル",
+        "english": "フラッシュナックル",
+        "japanese_base": "中 フラッシュナックル"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 19,
+        "active": "19-21",
+        "recovery": "27",
+        "on_hit": 3,
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 39,
+      "name": {
+        "japanese": "中 フラッシュナックル（ホールド）",
+        "english": "フラッシュナックル（ホールド）",
+        "japanese_base": "中 フラッシュナックル（ホールド）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 29,
+        "active": "29-32",
+        "recovery": "26",
+        "on_hit": "D",
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 40,
+      "name": {
+        "japanese": "中 フラッシュナックル（ジャスト）",
+        "english": "フラッシュナックル（ジャスト）",
+        "japanese_base": "中 フラッシュナックル（ジャスト）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 29,
+        "active": "29-32",
+        "recovery": "26",
+        "on_hit": "D",
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 1100,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 900
+    },
+    {
+      "id": 41,
+      "name": {
+        "japanese": "強 フラッシュナックル",
+        "english": "フラッシュナックル",
+        "japanese_base": "強 フラッシュナックル"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 22,
+        "active": "22-24",
+        "recovery": "21",
+        "on_hit": "D",
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2500,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 42,
+      "name": {
+        "japanese": "強 フラッシュナックル（ホールド）",
+        "english": "フラッシュナックル（ホールド）",
+        "japanese_base": "強 フラッシュナックル（ホールド）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 33,
+        "active": "33-36",
+        "recovery": "24",
+        "on_hit": "D",
+        "on_block": 4
+      },
+      "properties": {
+        "damage": 1300,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -7000,
+        "loss_on_punish": -9000
+      },
+      "sa_gain": 1100
+    },
+    {
+      "id": 43,
+      "name": {
+        "japanese": "強 フラッシュナックル（ジャスト）",
+        "english": "フラッシュナックル（ジャスト）",
+        "japanese_base": "強 フラッシュナックル（ジャスト）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 33,
+        "active": "33-36",
+        "recovery": "24",
+        "on_hit": "D",
+        "on_block": 4
+      },
+      "properties": {
+        "damage": 1600,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -7000,
+        "loss_on_punish": -9000
+      },
+      "sa_gain": 1200
+    },
+    {
+      "id": 44,
+      "name": {
+        "japanese": "OD フラッシュナックル",
+        "english": "フラッシュナックル",
+        "japanese_base": "OD フラッシュナックル"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 15,
+        "active": "15",
+        "recovery": "39",
+        "on_hit": "-",
+        "on_block": -22
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "SA2",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 45,
+      "name": {
+        "japanese": "OD フラッシュナックル（2段目）",
+        "english": "フラッシュナックル（2段目）",
+        "japanese_base": "OD フラッシュナックル（2段目）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 33,
+        "active": "33-36",
+        "recovery": "16",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "SA2",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 350
+    },
+    {
+      "id": 46,
+      "name": {
+        "japanese": "DDT",
+        "english": "DDT",
+        "japanese_base": "DDT"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 1,
+        "active": "1",
+        "recovery": "",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 2500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 3000
+    },
+    {
+      "id": 47,
+      "name": {
+        "japanese": "エアフラッシュナックル",
+        "english": "エアフラッシュナックル",
+        "japanese_base": "エアフラッシュナックル"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 14,
+        "active": "14-18",
+        "recovery": "着地後13",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 48,
+      "name": {
+        "japanese": "エアフラッシュナックル（ホールド）",
+        "english": "エアフラッシュナックル（ホールド）",
+        "japanese_base": "エアフラッシュナックル（ホールド）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 23,
+        "active": "23-28",
+        "recovery": "着地後15",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -7000,
+        "loss_on_punish": -9000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 49,
+      "name": {
+        "japanese": "OD エアフラッシュナックル",
+        "english": "エアフラッシュナックル",
+        "japanese_base": "OD エアフラッシュナックル"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 14,
+        "active": "14-19",
+        "recovery": "着地後15",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -7000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 50,
+      "name": {
+        "japanese": "アベンジャー",
+        "english": "アベンジャー",
+        "japanese_base": "アベンジャー"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": null,
+        "active": "",
+        "recovery": "全体 45",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 51,
+      "name": {
+        "japanese": "OD アベンジャー",
+        "english": "アベンジャー",
+        "japanese_base": "OD アベンジャー"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": null,
+        "active": "",
+        "recovery": "全体 45",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 52,
+      "name": {
+        "japanese": "ノーチェイサー",
+        "english": "ノーチェイサー",
+        "japanese_base": "ノーチェイサー"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 12,
+        "active": "12-21",
+        "recovery": "16",
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 53,
+      "name": {
+        "japanese": "OD ノーチェイサー",
+        "english": "ノーチェイサー",
+        "japanese_base": "OD ノーチェイサー"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 12,
+        "active": "12-21",
+        "recovery": "16",
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 1300,
+        "cancel": "SA2",
+        "combo_scaling": "始動補正50%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1250
+    },
+    {
+      "id": 54,
+      "name": {
+        "japanese": "インパラー",
+        "english": "インパラー",
+        "japanese_base": "インパラー"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 13,
+        "active": "13",
+        "recovery": "22",
+        "on_hit": "D",
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2200,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1200
+    },
+    {
+      "id": 55,
+      "name": {
+        "japanese": "OD インパラー",
+        "english": "インパラー",
+        "japanese_base": "OD インパラー"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 13,
+        "active": "13",
+        "recovery": "19",
+        "on_hit": "D",
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "始動補正50%",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1250
+    },
+    {
+      "id": 56,
+      "name": {
+        "japanese": "弱 ライジングアッパー",
+        "english": "ライジングアッパー",
+        "japanese_base": "弱 ライジングアッパー"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-14",
+        "recovery": "22+着地後12",
+        "on_hit": "D",
+        "on_block": -27
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 57,
+      "name": {
+        "japanese": "中 ライジングアッパー",
+        "english": "ライジングアッパー",
+        "japanese_base": "中 ライジングアッパー"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 6,
+        "active": "6-15",
+        "recovery": "24+着地後12",
+        "on_hit": "D",
+        "on_block": -29
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 58,
+      "name": {
+        "japanese": "強 ライジングアッパー",
+        "english": "ライジングアッパー",
+        "japanese_base": "強 ライジングアッパー"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 9,
+        "active": "9-18",
+        "recovery": "25+着地後15",
+        "on_hit": "D",
+        "on_block": -33
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 59,
+      "name": {
+        "japanese": "OD ライジングアッパー",
+        "english": "ライジングアッパー",
+        "japanese_base": "OD ライジングアッパー"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 6,
+        "active": "6-156-8, 9-15",
+        "recovery": "35+着地後15",
+        "on_hit": "D",
+        "on_block": -40
+      },
+      "properties": {
+        "damage": 1400,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2000,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 60,
+      "name": {
+        "japanese": "スラムダンク",
+        "english": "スラムダンク",
+        "japanese_base": "スラムダンク"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 16,
+        "active": "16-18",
+        "recovery": "14+着地後16",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -4000,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 61,
+      "name": {
+        "japanese": "SA1 バルカンブラスト",
+        "english": "バルカンブラスト",
+        "japanese_base": "SA1 バルカンブラスト"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 6,
+        "active": "",
+        "recovery": "全体 108",
+        "on_hit": "D",
+        "on_block": -29
+      },
+      "properties": {
+        "damage": 2000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 62,
+      "name": {
+        "japanese": "SA2 イレイザー",
+        "english": "イレイザー",
+        "japanese_base": "SA2 イレイザー"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": "51",
+        "on_hit": "D",
+        "on_block": -29
+      },
+      "properties": {
+        "damage": 2800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 63,
+      "name": {
+        "japanese": "SA3 ペイルライダー",
+        "english": "ペイルライダー",
+        "japanese_base": "SA3 ペイルライダー"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 10,
+        "active": "10-13",
+        "recovery": "92",
+        "on_hit": "D",
+        "on_block": -42
+      },
+      "properties": {
+        "damage": 4000,
+        "cancel": "",
+        "combo_scaling": "※即時補正10%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -7500,
+        "loss_on_punish": -15000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 64,
+      "name": {
+        "japanese": "CA ペイルライダー",
+        "english": "ペイルライダー",
+        "japanese_base": "CA ペイルライダー"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 10,
+        "active": "10-13",
+        "recovery": "92",
+        "on_hit": "D",
+        "on_block": -42
+      },
+      "properties": {
+        "damage": 4500,
+        "cancel": "",
+        "combo_scaling": "※即時補正10%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -10000,
+        "loss_on_punish": -20000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 65,
+      "name": {
+        "japanese": "スウィーパー",
+        "english": "スウィーパー",
+        "japanese_base": "スウィーパー"
+      },
+      "category": {
+        "japanese": "共通システム",
+        "english": "System Mechanics"
+      },
+      "type": "system",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": "23",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "即時補正20%",
+        "attribute": "投",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": 0,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 2000
+    }
+  ]
+}

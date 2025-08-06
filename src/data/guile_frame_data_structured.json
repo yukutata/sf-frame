@@ -1,0 +1,2699 @@
+{
+  "character": "guile",
+  "character_name": {
+    "japanese": "ガイル",
+    "english": "Guile"
+  },
+  "health": 10000,
+  "categories": {
+    "通常技": {
+      "japanese": "通常技",
+      "english": "Normal Attacks",
+      "moves": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        67,
+        68
+      ]
+    },
+    "特殊技": {
+      "japanese": "特殊技",
+      "english": "Special Normals",
+      "moves": [
+        69,
+        70
+      ]
+    },
+    "必殺技": {
+      "japanese": "必殺技",
+      "english": "Special Moves",
+      "moves": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        65,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ]
+    },
+    "スーパーアーツ": {
+      "japanese": "スーパーアーツ",
+      "english": "Super Arts",
+      "moves": [
+        60,
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    "通常投げ": {
+      "japanese": "通常投げ",
+      "english": "Throws",
+      "moves": [
+        66
+      ]
+    },
+    "共通システム": {
+      "japanese": "共通システム",
+      "english": "System Mechanics",
+      "moves": []
+    }
+  },
+  "moves": [
+    {
+      "id": 1,
+      "name": {
+        "japanese": "立ち弱P （ジャブ）弱",
+        "english": "立ち弱P （ジャブ）弱",
+        "japanese_base": "立ち弱P （ジャブ）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 7,
+        "on_hit": 4,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "連打キャンセル対応"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 2,
+      "name": {
+        "japanese": "立ち弱K （ムエタイキック）弱",
+        "english": "立ち弱K （ムエタイキック）弱",
+        "japanese_base": "立ち弱K （ムエタイキック）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-6",
+        "recovery": 12,
+        "on_hit": 3,
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 3,
+      "name": {
+        "japanese": "立ち中P （フック）中",
+        "english": "立ち中P （フック）中",
+        "japanese_base": "立ち中P （フック）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-9",
+        "recovery": 15,
+        "on_hit": 6,
+        "on_block": 0
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 4,
+      "name": {
+        "japanese": "立ち中K （トラースキック）中",
+        "english": "立ち中K （トラースキック）中",
+        "japanese_base": "立ち中K （トラースキック）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-11",
+        "recovery": 18,
+        "on_hit": 1,
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -6000
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 5,
+      "name": {
+        "japanese": "立ち強P （サイクロンフック）強",
+        "english": "立ち強P （サイクロンフック）強",
+        "japanese_base": "立ち強P （サイクロンフック）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-9",
+        "recovery": 23,
+        "on_hit": -1,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "パニッシュカウンターヒット時+14"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 6,
+      "name": {
+        "japanese": "立ち強K （ヘビースタブキック）強",
+        "english": "立ち強K （ヘビースタブキック）強",
+        "japanese_base": "立ち強K （ヘビースタブキック）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 13,
+        "active": "13-15",
+        "recovery": 21,
+        "on_hit": 4,
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "SA",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 7,
+      "name": {
+        "japanese": "しゃがみ弱P （ジャブ）弱",
+        "english": "しゃがみ弱P （ジャブ）弱",
+        "japanese_base": "しゃがみ弱P （ジャブ）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 4,
+        "active": "4-6",
+        "recovery": 8,
+        "on_hit": 5,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "連打キャンセル対応"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 8,
+      "name": {
+        "japanese": "しゃがみ弱K （キック）弱",
+        "english": "しゃがみ弱K （キック）弱",
+        "japanese_base": "しゃがみ弱K （キック）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-6",
+        "recovery": 12,
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 200,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "下",
+        "notes": "連打キャンセル対応"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 9,
+      "name": {
+        "japanese": "しゃがみ中P （ストレート）中",
+        "english": "しゃがみ中P （ストレート）中",
+        "japanese_base": "しゃがみ中P （ストレート）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-8",
+        "recovery": 13,
+        "on_hit": 4,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "※空振り時硬直3F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 10,
+      "name": {
+        "japanese": "しゃがみ中K （スライドスイープ）中",
+        "english": "しゃがみ中K （スライドスイープ）中",
+        "japanese_base": "しゃがみ中K （スライドスイープ）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-10",
+        "recovery": 18,
+        "on_hit": 4,
+        "on_block": -5
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "下",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -6000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 11,
+      "name": {
+        "japanese": "しゃがみ強P （リフトアッパー）強",
+        "english": "しゃがみ強P （リフトアッパー）強",
+        "japanese_base": "しゃがみ強P （リフトアッパー）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 9,
+        "active": "9-13",
+        "recovery": 20,
+        "on_hit": 0,
+        "on_block": -9
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "強制立ち効果"
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 12,
+      "name": {
+        "japanese": "しゃがみ強K （ドラゴンスイープ）強",
+        "english": "しゃがみ強K （ドラゴンスイープ）強",
+        "japanese_base": "しゃがみ強K （ドラゴンスイープ）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 9,
+        "active": "9-299-10, 27-29",
+        "recovery": 21,
+        "on_hit": "D",
+        "on_block": -12
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "下下",
+        "notes": "パニッシュカウンター時ダウン時間増加、ハードノックダウン初段パニッシュカウンターヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 13,
+      "name": {
+        "japanese": "ジャンプ弱P （ジャンプパンチ）（ジャンプ中に）弱",
+        "english": "ジャンプ弱P （ジャンプパンチ）（ジャンプ中に）弱",
+        "japanese_base": "ジャンプ弱P （ジャンプパンチ）（ジャンプ中に）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 4,
+        "active": "4-13",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 14,
+      "name": {
+        "japanese": "ジャンプ弱K （ジャンピングニーアタック）（ジャンプ中に）弱",
+        "english": "ジャンプ弱K （ジャンピングニーアタック）（ジャンプ中に）弱",
+        "japanese_base": "ジャンプ弱K （ジャンピングニーアタック）（ジャンプ中に）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-15",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "めくり性能"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 15,
+      "name": {
+        "japanese": "ジャンプ中P （ジャンプストレート）（ジャンプ中に）中",
+        "english": "ジャンプ中P （ジャンプストレート）（ジャンプ中に）中",
+        "japanese_base": "ジャンプ中P （ジャンプストレート）（ジャンプ中に）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-9",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 16,
+      "name": {
+        "japanese": "ジャンプ中K （ガイルキック）（ジャンプ中に）中",
+        "english": "ジャンプ中K （ガイルキック）（ジャンプ中に）中",
+        "japanese_base": "ジャンプ中K （ガイルキック）（ジャンプ中に）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-13",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 17,
+      "name": {
+        "japanese": "ジャンプ強P （ジャンプチョップ）（ジャンプ中に）強",
+        "english": "ジャンプ強P （ジャンプチョップ）（ジャンプ中に）強",
+        "japanese_base": "ジャンプ強P （ジャンプチョップ）（ジャンプ中に）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 9,
+        "active": "9-12",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "空中カウンター/パニッシュカウンター時叩きつけダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 18,
+      "name": {
+        "japanese": "ジャンプ強K （アンチラウンドキック）（ジャンプ中に）強",
+        "english": "ジャンプ強K （アンチラウンドキック）（ジャンプ中に）強",
+        "japanese_base": "ジャンプ強K （アンチラウンドキック）（ジャンプ中に）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-14",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 19,
+      "name": {
+        "japanese": "フルブレットマグナム中",
+        "english": "フルブレットマグナム中",
+        "japanese_base": "フルブレットマグナム中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 20,
+        "active": "20-22",
+        "recovery": 19,
+        "on_hit": 2,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "空中ヒット時叩きつけダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 20,
+      "name": {
+        "japanese": "バーンストレート強",
+        "english": "バーンストレート強",
+        "japanese_base": "バーンストレート強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 9,
+        "active": "9-11",
+        "recovery": 21,
+        "on_hit": 1,
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 21,
+      "name": {
+        "japanese": "スピニングバックナックル強",
+        "english": "スピニングバックナックル強",
+        "japanese_base": "スピニングバックナックル強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "16-18",
+        "recovery": 20,
+        "on_hit": 5,
+        "on_block": 3
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 5000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -12000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 22,
+      "name": {
+        "japanese": "ニーバズーカ弱",
+        "english": "ニーバズーカ弱",
+        "japanese_base": "ニーバズーカ弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 8,
+        "active": "8-11",
+        "recovery": 15,
+        "on_hit": 0,
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 23,
+      "name": {
+        "japanese": "ローリングソバット中",
+        "english": "ローリングソバット中",
+        "japanese_base": "ローリングソバット中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 11,
+        "active": "11-13",
+        "recovery": 18,
+        "on_hit": 3,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "7-17F 足元無敵"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -6000
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 24,
+      "name": {
+        "japanese": "ローリングソバット中",
+        "english": "ローリングソバット中",
+        "japanese_base": "ローリングソバット中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 11,
+        "active": "11-13",
+        "recovery": 18,
+        "on_hit": 3,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "7-17F 足元無敵空振り時硬直21F/全体34F"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -6000
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 25,
+      "name": {
+        "japanese": "リバーススピンキック強",
+        "english": "リバーススピンキック強",
+        "japanese_base": "リバーススピンキック強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 17,
+        "active": "17-19",
+        "recovery": 26,
+        "on_hit": -1,
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "4F-28F　投げ無敵/足元無敵カウンターヒット時吹き飛びダウンパニッシュカウンターヒット時膝崩れ"
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 26,
+      "name": {
+        "japanese": "ガイルハイキック強",
+        "english": "ガイルハイキック強",
+        "japanese_base": "ガイルハイキック強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": "10-12",
+        "recovery": 23,
+        "on_hit": 0,
+        "on_block": -9
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "パニッシュカウンターヒット時吹き飛びダウン空中ヒット時、カウンター以上で吹き飛びダウン18-19F 必殺技キャンセル可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 27,
+      "name": {
+        "japanese": "リコイルキャノン中強",
+        "english": "リコイルキャノン中強",
+        "japanese_base": "リコイルキャノン中強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "16-18",
+        "recovery": 26,
+        "on_hit": "D",
+        "on_block": -9
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "8-9F 必殺技、SAで空振りキャンセル可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 28,
+      "name": {
+        "japanese": "ダブルバレット中中",
+        "english": "ダブルバレット中中",
+        "japanese_base": "ダブルバレット中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 12,
+        "active": "12-14",
+        "recovery": 16,
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "C",
+        "combo_scaling": "即時補正10%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 250
+    },
+    {
+      "id": 29,
+      "name": {
+        "japanese": "ドレイクファング中中",
+        "english": "ドレイクファング中中",
+        "japanese_base": "ドレイクファング中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 20,
+        "active": "20-22",
+        "recovery": 21,
+        "on_hit": 1,
+        "on_block": -5
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 30,
+      "name": {
+        "japanese": "ファントムカッター強強",
+        "english": "ファントムカッター強強",
+        "japanese_base": "ファントムカッター強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": "10-12",
+        "recovery": 25,
+        "on_hit": "D",
+        "on_block": -12
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -7000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 31,
+      "name": {
+        "japanese": "弱 ソニックブーム弱",
+        "english": "弱 ソニックブーム弱",
+        "japanese_base": "弱 ソニックブーム弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 40",
+        "on_hit": 3,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 550,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "12-20F　通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 32,
+      "name": {
+        "japanese": "【ジャスト】 弱 ソニックブーム弱",
+        "english": "【ジャスト】 弱 ソニックブーム弱",
+        "japanese_base": "【ジャスト】 弱 ソニックブーム弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 40",
+        "on_hit": 4,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "12-20F　通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 33,
+      "name": {
+        "japanese": "中 ソニックブーム中",
+        "english": "中 ソニックブーム中",
+        "japanese_base": "中 ソニックブーム中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 40",
+        "on_hit": 3,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 550,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "12-20F　通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 450
+    },
+    {
+      "id": 34,
+      "name": {
+        "japanese": "【ジャスト】 中 ソニックブーム中",
+        "english": "【ジャスト】 中 ソニックブーム中",
+        "japanese_base": "【ジャスト】 中 ソニックブーム中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 40",
+        "on_hit": 4,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "12-20F　通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 450
+    },
+    {
+      "id": 35,
+      "name": {
+        "japanese": "強 ソニックブーム強",
+        "english": "強 ソニックブーム強",
+        "japanese_base": "強 ソニックブーム強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 40",
+        "on_hit": 3,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 550,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "12-20F　通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 36,
+      "name": {
+        "japanese": "【ジャスト】 強 ソニックブーム強",
+        "english": "【ジャスト】 強 ソニックブーム強",
+        "japanese_base": "【ジャスト】 強 ソニックブーム強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 40",
+        "on_hit": 4,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "12-20F　通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 37,
+      "name": {
+        "japanese": "OD ソニックブーム",
+        "english": "OD ソニックブーム",
+        "japanese_base": "OD ソニックブーム"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 38",
+        "on_hit": null,
+        "on_block": 3
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "SA2",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上・弾",
+        "notes": "12-20F　OD版ソニックブレイク(SA2発動中発動可能技)へ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 38,
+      "name": {
+        "japanese": "弱 サマーソルトキック弱",
+        "english": "弱 サマーソルトキック弱",
+        "japanese_base": "弱 サマーソルトキック弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-10",
+        "recovery": "26+着地後15",
+        "on_hit": "D",
+        "on_block": -30
+      },
+      "properties": {
+        "damage": "※1000",
+        "cancel": "SA3",
+        "combo_scaling": "始動補正30%",
+        "attribute": "上",
+        "notes": "1-7F 空中判定の打撃・空弾属性に対して無敵8-36F 空中判定※持続の3F目以降は個別ダメージ(800)"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 39,
+      "name": {
+        "japanese": "【ジャスト】 弱 サマーソルトキック弱",
+        "english": "【ジャスト】 弱 サマーソルトキック弱",
+        "japanese_base": "【ジャスト】 弱 サマーソルトキック弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-10",
+        "recovery": "26+着地後15",
+        "on_hit": "D",
+        "on_block": -30
+      },
+      "properties": {
+        "damage": "※1200",
+        "cancel": "SA3",
+        "combo_scaling": "始動補正30%",
+        "attribute": "上",
+        "notes": "1-7F 空中判定の打撃・空弾属性に対して無敵8-36F 空中判定※持続の3F目以降は個別ダメージ(1000)"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 40,
+      "name": {
+        "japanese": "中 サマーソルトキック中",
+        "english": "中 サマーソルトキック中",
+        "japanese_base": "中 サマーソルトキック中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 6,
+        "active": "6-11",
+        "recovery": "27+着地後15",
+        "on_hit": "D",
+        "on_block": -31
+      },
+      "properties": {
+        "damage": "※1100",
+        "cancel": "SA3",
+        "combo_scaling": "始動補正30%",
+        "attribute": "上",
+        "notes": "1-8F 空中判定の打撃・空弾属性に対して無敵8-38F 空中判定※持続の3F目以降は個別ダメージ(800)"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 41,
+      "name": {
+        "japanese": "【ジャスト】 中 サマーソルトキック中",
+        "english": "【ジャスト】 中 サマーソルトキック中",
+        "japanese_base": "【ジャスト】 中 サマーソルトキック中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 6,
+        "active": "6-11",
+        "recovery": "27+着地後15",
+        "on_hit": "D",
+        "on_block": -31
+      },
+      "properties": {
+        "damage": "※1300",
+        "cancel": "SA3",
+        "combo_scaling": "始動補正30%",
+        "attribute": "上",
+        "notes": "1-8F 空中判定の打撃・空弾属性に対して無敵8-38F 空中判定※持続の3F目以降は個別ダメージ(1000)"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 42,
+      "name": {
+        "japanese": "強 サマーソルトキック強",
+        "english": "強 サマーソルトキック強",
+        "japanese_base": "強 サマーソルトキック強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 7,
+        "active": "7-12",
+        "recovery": "28+着地後15",
+        "on_hit": "D",
+        "on_block": -32
+      },
+      "properties": {
+        "damage": "※1200",
+        "cancel": "SA3",
+        "combo_scaling": "始動補正30%",
+        "attribute": "上",
+        "notes": "1-9F 空中判定の打撃・空弾属性に対して無敵8-40F 空中判定※持続の3F目以降は個別ダメージ(800)"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 43,
+      "name": {
+        "japanese": "【ジャスト】 強 サマーソルトキック強",
+        "english": "【ジャスト】 強 サマーソルトキック強",
+        "japanese_base": "【ジャスト】 強 サマーソルトキック強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 7,
+        "active": "7-12",
+        "recovery": "28+着地後15",
+        "on_hit": "D",
+        "on_block": -32
+      },
+      "properties": {
+        "damage": "※1400",
+        "cancel": "SA3",
+        "combo_scaling": "始動補正30%",
+        "attribute": "上",
+        "notes": "1-9F 空中判定の打撃・空弾属性に対して無敵8-40F 空中判定※持続の3F目以降は個別ダメージ(1000)"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 44,
+      "name": {
+        "japanese": "OD サマーソルトキック",
+        "english": "OD サマーソルトキック",
+        "japanese_base": "OD サマーソルトキック"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 6,
+        "active": "6-11",
+        "recovery": "26+着地後20",
+        "on_hit": "D",
+        "on_block": -33
+      },
+      "properties": {
+        "damage": "※1600",
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "1-11F 完全無敵8-37F 空中判定※持続の3-4F目は個別ダメージ(700)"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2000,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 45,
+      "name": {
+        "japanese": "弱 ソニックブレイド弱",
+        "english": "弱 ソニックブレイド弱",
+        "japanese_base": "弱 ソニックブレイド弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": "16-60",
+        "recovery": "全体 42",
+        "on_hit": -3,
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "35-40F 各種ソニッククロスへ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 46,
+      "name": {
+        "japanese": "中 ソニックブレイド中",
+        "english": "中 ソニックブレイド中",
+        "japanese_base": "中 ソニックブレイド中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 21,
+        "active": "21-105",
+        "recovery": "全体 50",
+        "on_hit": -6,
+        "on_block": -7
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "40-46F 各種ソニッククロスへ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 47,
+      "name": {
+        "japanese": "強 ソニックブレイド強",
+        "english": "強 ソニックブレイド強",
+        "japanese_base": "強 ソニックブレイド強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 31,
+        "active": "31-130",
+        "recovery": "全体 54",
+        "on_hit": 1,
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "50-54F 各種ソニッククロスへ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 48,
+      "name": {
+        "japanese": "OD ソニックブレイド",
+        "english": "OD ソニックブレイド",
+        "japanese_base": "OD ソニックブレイド"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 15,
+        "active": "15-114",
+        "recovery": "全体 39",
+        "on_hit": "D",
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA2",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "34-39F 各種ODソニッククロスへ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 49,
+      "name": {
+        "japanese": "弱 ソニッククロス（ソニックブレイド中に）弱",
+        "english": "弱 ソニッククロス（ソニックブレイド中に）弱",
+        "japanese_base": "弱 ソニッククロス（ソニックブレイド中に）弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 38",
+        "on_hit": "D",
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -3500,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 50,
+      "name": {
+        "japanese": "【ジャスト】弱 ソニッククロス（ソニックブレイド中に）弱",
+        "english": "【ジャスト】弱 ソニッククロス（ソニックブレイド中に）弱",
+        "japanese_base": "【ジャスト】弱 ソニッククロス（ソニックブレイド中に）弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 38",
+        "on_hit": "D",
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -3500,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 51,
+      "name": {
+        "japanese": "中 ソニッククロス（ソニックブレイド中に）中",
+        "english": "中 ソニッククロス（ソニックブレイド中に）中",
+        "japanese_base": "中 ソニッククロス（ソニックブレイド中に）中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 38",
+        "on_hit": "D",
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 52,
+      "name": {
+        "japanese": "【ジャスト】中 ソニッククロス（ソニックブレイド中に）中",
+        "english": "【ジャスト】中 ソニッククロス（ソニックブレイド中に）中",
+        "japanese_base": "【ジャスト】中 ソニッククロス（ソニックブレイド中に）中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 38",
+        "on_hit": "D",
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 53,
+      "name": {
+        "japanese": "強 ソニッククロス（ソニックブレイド中に）強",
+        "english": "強 ソニッククロス（ソニックブレイド中に）強",
+        "japanese_base": "強 ソニッククロス（ソニックブレイド中に）強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 38",
+        "on_hit": "D",
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 54,
+      "name": {
+        "japanese": "【ジャスト】強 ソニッククロス（ソニックブレイド中に）強",
+        "english": "【ジャスト】強 ソニッククロス（ソニックブレイド中に）強",
+        "japanese_base": "【ジャスト】強 ソニッククロス（ソニックブレイド中に）強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 38",
+        "on_hit": "D",
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 55,
+      "name": {
+        "japanese": "OD ソニッククロス１（ソニックブレイド中に）（ODソニックブレイド中に）",
+        "english": "OD ソニッククロス１（ソニックブレイド中に）（ODソニックブレイド中に）",
+        "japanese_base": "OD ソニッククロス１（ソニックブレイド中に）（ODソニックブレイド中に）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 38",
+        "on_hit": "D",
+        "on_block": 6
+      },
+      "properties": {
+        "damage": 1300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 56,
+      "name": {
+        "japanese": "OD ソニッククロス２（ODソニックブレイド中に）",
+        "english": "OD ソニッククロス２（ODソニックブレイド中に）",
+        "japanese_base": "OD ソニッククロス２（ODソニックブレイド中に）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": null,
+        "recovery": "全体 38",
+        "on_hit": "D",
+        "on_block": 6
+      },
+      "properties": {
+        "damage": 1700,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "ヒット後壁やられ"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -8500,
+        "loss_on_punish": -6000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 57,
+      "name": {
+        "japanese": "ソニックブレイク （単発）（ソリッドパンチャー中に）",
+        "english": "ソニックブレイク （単発）（ソリッドパンチャー中に）",
+        "japanese_base": "ソニックブレイク （単発）（ソリッドパンチャー中に）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 11,
+        "active": null,
+        "recovery": "全体 36",
+        "on_hit": 2,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "13-21F通常版ソニックブレイク (SA2発動中発動可能技)へ派生可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 58,
+      "name": {
+        "japanese": "ソニックブレイク （派生）（ソリッドパンチャー中に）（ソニックブーム or ソニックブレイク中に）",
+        "english": "ソニックブレイク （派生）（ソリッドパンチャー中に）（ソニックブーム or ソニックブレイク中に）",
+        "japanese_base": "ソニックブレイク （派生）（ソリッドパンチャー中に）（ソニックブーム or ソニックブレイク中に）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 11,
+        "active": null,
+        "recovery": "全体 ※36",
+        "on_hit": 2,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "13-21F 通常版ソニックブレイク (SA2発動中発動可能技)へ派生可能(3回まで)※派生最終段のみ、硬直1F減少"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 59,
+      "name": {
+        "japanese": "OD ソニックブレイク（ソリッドパンチャー中に）（ODソニックブーム or ODソニックブレイク中に）",
+        "english": "OD ソニックブレイク（ソリッドパンチャー中に）（ODソニックブーム or ODソニックブレイク中に）",
+        "japanese_base": "OD ソニックブレイク（ソリッドパンチャー中に）（ODソニックブーム or ODソニックブレイク中に）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 11,
+        "active": null,
+        "recovery": "全体 35",
+        "on_hit": "D",
+        "on_block": 3
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "13-21F OD版ソニックブレイク (SA2発動中発動可能技)へ派生可能(1回のみ)"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 60,
+      "name": {
+        "japanese": "SA1 ソニックハリケーン （上）強",
+        "english": "SA1 ソニックハリケーン （上）強",
+        "japanese_base": "SA1 ソニックハリケーン （上）強"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 7,
+        "active": "7-58",
+        "recovery": "全体 75",
+        "on_hit": null,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 1800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "最低保障ダメージ30％カウンター/パニッシュカウンターで数値が変動しない"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 61,
+      "name": {
+        "japanese": "SA1 ソニックハリケーン （横）弱中",
+        "english": "SA1 ソニックハリケーン （横）弱中",
+        "japanese_base": "SA1 ソニックハリケーン （横）弱中"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 8,
+        "active": "8-58",
+        "recovery": "全体 89",
+        "on_hit": "D",
+        "on_block": -26
+      },
+      "properties": {
+        "damage": 2000,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "1-8F　打撃/投げに対して無敵最低保障ダメージ30％カウンター/パニッシュカウンターで数値が変動しない"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 62,
+      "name": {
+        "japanese": "SA2 ソリッドパンチャー",
+        "english": "SA2 ソリッドパンチャー",
+        "japanese_base": "SA2 ソリッドパンチャー"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 6",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "発動後ソニックブレイク(SA2発動中使用可能技)が発動可能。"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 63,
+      "name": {
+        "japanese": "SA3 クロスファイアサマーソルト",
+        "english": "SA3 クロスファイアサマーソルト",
+        "japanese_base": "SA3 クロスファイアサマーソルト"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 9,
+        "active": "9-14",
+        "recovery": "30+着地後40",
+        "on_hit": "D",
+        "on_block": -59
+      },
+      "properties": {
+        "damage": 4000,
+        "cancel": "",
+        "combo_scaling": "※即時補正10%",
+        "attribute": "上",
+        "notes": "1-14F　完全無敵12-44F　空中判定最低保障ダメージ50％カウンター/パニッシュカウンターで数値が変動しない※持続の3F目以降は個別ダメージ(3000)必殺技キャンセル時のみ適用"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -7500,
+        "loss_on_punish": -15000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 64,
+      "name": {
+        "japanese": "CA クロスファイアサマーソルト（体力25%以下で）",
+        "english": "CA クロスファイアサマーソルト（体力25%以下で）",
+        "japanese_base": "CA クロスファイアサマーソルト（体力25%以下で）"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 9,
+        "active": "9-14",
+        "recovery": "30+着地後40",
+        "on_hit": "D",
+        "on_block": -59
+      },
+      "properties": {
+        "damage": 4500,
+        "cancel": "",
+        "combo_scaling": "※即時補正10%",
+        "attribute": "上",
+        "notes": "1-14F　完全無敵12-44F 空中判定最低保障ダメージ50％カウンター/パニッシュカウンターで数値が変動しない※持続の3F目以降は個別ダメージ(3500)必殺技キャンセル時のみ適用"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -10000,
+        "loss_on_punish": -20000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 65,
+      "name": {
+        "japanese": "ドラゴンスープレックス（近距離で）弱弱",
+        "english": "ドラゴンスープレックス（近距離で）弱弱",
+        "japanese_base": "ドラゴンスープレックス（近距離で）弱弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 23,
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "投",
+        "notes": "パニッシュカウンター時以下の性能変化・ダメージ2040・SAゲージ4000増加・ハードノックダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": 0,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 66,
+      "name": {
+        "japanese": "ジュード―スルー（近距離で）弱弱",
+        "english": "ジュード―スルー（近距離で）弱弱",
+        "japanese_base": "ジュード―スルー（近距離で）弱弱"
+      },
+      "category": {
+        "japanese": "通常投げ",
+        "english": "Throws"
+      },
+      "type": "throw",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 23,
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "投",
+        "notes": "パニッシュカウンター時以下の性能変化・ダメージ2040・SAゲージ4000増加・ハードノックダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": 0,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 67,
+      "name": {
+        "japanese": "フライングメイヤー（ジャンプ中に）（近距離で）弱弱",
+        "english": "フライングメイヤー（ジャンプ中に）（近距離で）弱弱",
+        "japanese_base": "フライングメイヤー（ジャンプ中に）（近距離で）弱弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": "着地後3",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "投",
+        "notes": "パニッシュカウンター時以下の性能変化・ダメージ2040・SAゲージ4000増加・ハードノックダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": 0,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 68,
+      "name": {
+        "japanese": "フライングバスタードロップ（ジャンプ中に）（近距離で）弱弱",
+        "english": "フライングバスタードロップ（ジャンプ中に）（近距離で）弱弱",
+        "japanese_base": "フライングバスタードロップ（ジャンプ中に）（近距離で）弱弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": "着地後3",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "投",
+        "notes": "パニッシュカウンター時以下の性能変化・ダメージ2040・SAゲージ4000増加・ハードノックダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": 0,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 69,
+      "name": {
+        "japanese": "前方ステップ",
+        "english": "前方ステップ",
+        "japanese_base": "前方ステップ"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 21",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 70,
+      "name": {
+        "japanese": "後方ステップ",
+        "english": "後方ステップ",
+        "japanese_base": "後方ステップ"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 23",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "1-15F 投げ無敵"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 71,
+      "name": {
+        "japanese": "ドライブインパクト （ブリッツコンビネーション）強強",
+        "english": "ドライブインパクト （ブリッツコンビネーション）強強",
+        "japanese_base": "ドライブインパクト （ブリッツコンビネーション）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 26,
+        "active": "26-27",
+        "recovery": 35,
+        "on_hit": "D",
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "1-27F　 アーマー判定（2回）パニッシュカウンター、もしくはアーマー成立後にヒットで以下の性能変化・地上ヒット膝崩れ・空中ヒットきりもみダウン・SAゲージ3000増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -15000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 72,
+      "name": {
+        "japanese": "[ガード時]ドライブリバーサル （ストライクイーグル）（ガード中 or ドライブパリィ成立中に）強強",
+        "english": "[ガード時]ドライブリバーサル （ストライクイーグル）（ガード中 or ドライブパリィ成立中に）強強",
+        "japanese_base": "[ガード時]ドライブリバーサル （ストライクイーグル）（ガード中 or ドライブパリィ成立中に）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 20,
+        "active": "20-22",
+        "recovery": 26,
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "リカバリアブルダメージ1-22F 完全無敵ヒット時硬直5F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 73,
+      "name": {
+        "japanese": "[起き上がり時]ドライブリバーサル （ストライクイーグル）（起き上がり時に）強強",
+        "english": "[起き上がり時]ドライブリバーサル （ストライクイーグル）（起き上がり時に）強強",
+        "japanese_base": "[起き上がり時]ドライブリバーサル （ストライクイーグル）（起き上がり時に）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 18,
+        "active": "18-20",
+        "recovery": 26,
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "リカバリアブルダメージ1-20F 完全無敵ヒット時硬直5F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 74,
+      "name": {
+        "japanese": "ドライブパリィ中中",
+        "english": "ドライブパリィ中中",
+        "japanese_base": "ドライブパリィ中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 1,
+        "active": "[※2] 1-12",
+        "recovery": 33,
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "※1",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "※1 動作の4F目からドライブラッシュでキャンセル可※2 ボタンホールドでパリィの持続を延長可硬直部分はガードのみ可動作中常に被パニッシュカウンター判定"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 75,
+      "name": {
+        "japanese": "ジャストパリィ（打撃）ガード方向中中",
+        "english": "ジャストパリィ（打撃）ガード方向中中",
+        "japanese_base": "ジャストパリィ（打撃）ガード方向中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 1,
+        "active": null,
+        "recovery": 1,
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "始動補正50％",
+        "attribute": "",
+        "notes": "相手の攻撃に対応した方向入力を行った状態でパリィを入力し、入力したフレーム、もしくはその次のフレームで攻撃を受けると成立する（上段/中段攻撃に対して←方向、下段攻撃に対しては↙方向)方向が正しくなかった場合は通常のドライブパリィとなり、追加でDゲージが3000増加する硬直終了から5Fの間完全無敵 （パリィを継続した場合は無敵にならない）ジャストパリィを取られた側はキャンセルが出来なくなり、動作終了まで強制パニッシュカウンター"
+      },
+      "drive_system": {
+        "gain_on_hit": null,
+        "loss_on_guard": null,
+        "loss_on_punish": null
+      },
+      "sa_gain": null
+    },
+    {
+      "id": 76,
+      "name": {
+        "japanese": "ジャストパリィ（飛び道具）中中",
+        "english": "ジャストパリィ（飛び道具）中中",
+        "japanese_base": "ジャストパリィ（飛び道具）中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 1,
+        "active": null,
+        "recovery": 10,
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "始動補正50％",
+        "attribute": "",
+        "notes": "パリィを入力したフレーム、もしくはその次のフレームで攻撃を受けると成立する暗転演出が入らないジャストパリィを取られた側はキャンセルが出来なくなり、動作終了まで強制パニッシュカウンター"
+      },
+      "drive_system": {
+        "gain_on_hit": null,
+        "loss_on_guard": null,
+        "loss_on_punish": null
+      },
+      "sa_gain": null
+    },
+    {
+      "id": 77,
+      "name": {
+        "japanese": "パリィドライブラッシュ（ドライブパリィ中に）",
+        "english": "パリィドライブラッシュ（ドライブパリィ中に）",
+        "japanese_base": "パリィドライブラッシュ（ドライブパリィ中に）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 45",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "※",
+        "combo_scaling": "乗算補正15％",
+        "attribute": "",
+        "notes": "暗転10F※動作9F目から攻撃行動にキャンセル可24F目からパリィ以外の行動でキャンセル可"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 78,
+      "name": {
+        "japanese": "キャンセルドライブラッシュ（必殺技キャンセル可能な攻撃ヒット中に）()中中",
+        "english": "キャンセルドライブラッシュ（必殺技キャンセル可能な攻撃ヒット中に）()中中",
+        "japanese_base": "キャンセルドライブラッシュ（必殺技キャンセル可能な攻撃ヒット中に）()中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 46",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "※",
+        "combo_scaling": "乗算補正15％",
+        "attribute": "",
+        "notes": "暗転9F※動作10F目から攻撃行動にキャンセル可25F目からパリィ以外の行動でキャンセル可"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    }
+  ]
+}

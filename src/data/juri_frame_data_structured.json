@@ -1,0 +1,3004 @@
+{
+  "character": "juri",
+  "character_name": {
+    "japanese": "ジュリ",
+    "english": "Juri"
+  },
+  "health": 10000,
+  "categories": {
+    "通常技": {
+      "japanese": "通常技",
+      "english": "Normal Attacks",
+      "moves": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        66,
+        67,
+        77
+      ]
+    },
+    "特殊技": {
+      "japanese": "特殊技",
+      "english": "Special Normals",
+      "moves": [
+        68,
+        78,
+        79
+      ]
+    },
+    "必殺技": {
+      "japanese": "必殺技",
+      "english": "Special Moves",
+      "moves": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        69,
+        75,
+        76,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ]
+    },
+    "スーパーアーツ": {
+      "japanese": "スーパーアーツ",
+      "english": "Super Arts",
+      "moves": [
+        70,
+        71,
+        72,
+        73,
+        74
+      ]
+    },
+    "通常投げ": {
+      "japanese": "通常投げ",
+      "english": "Throws",
+      "moves": []
+    },
+    "共通システム": {
+      "japanese": "共通システム",
+      "english": "System Mechanics",
+      "moves": []
+    }
+  },
+  "moves": [
+    {
+      "id": 1,
+      "name": {
+        "japanese": "立ち弱P（首甲殺）弱",
+        "english": "立ち弱P（首甲殺）弱",
+        "japanese_base": "立ち弱P（首甲殺）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 4,
+        "active": "4-7",
+        "recovery": 7,
+        "on_hit": 5,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "連打キャンセル対応"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 2,
+      "name": {
+        "japanese": "[チェーンコンボ]立ち弱P（首甲殺）弱",
+        "english": "[チェーンコンボ]立ち弱P（首甲殺）弱",
+        "japanese_base": "[チェーンコンボ]立ち弱P（首甲殺）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 4,
+        "active": "4-7",
+        "recovery": 7,
+        "on_hit": 5,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 100,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "連打キャンセル対応空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 62,
+        "loss_on_guard": -125,
+        "loss_on_punish": -500
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 3,
+      "name": {
+        "japanese": "立ち弱K（微弄脚）弱",
+        "english": "立ち弱K（微弄脚）弱",
+        "japanese_base": "立ち弱K（微弄脚）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 9,
+        "on_hit": 2,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 4,
+      "name": {
+        "japanese": "[チェーンコンボ]立ち弱K（微弄脚）弱",
+        "english": "[チェーンコンボ]立ち弱K（微弄脚）弱",
+        "japanese_base": "[チェーンコンボ]立ち弱K（微弄脚）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 9,
+        "on_hit": 2,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 100,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 62,
+        "loss_on_guard": -125,
+        "loss_on_punish": -500
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 5,
+      "name": {
+        "japanese": "立ち中P（胸破殺）中",
+        "english": "立ち中P（胸破殺）中",
+        "japanese_base": "立ち中P（胸破殺）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-9",
+        "recovery": 12,
+        "on_hit": 7,
+        "on_block": 2
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 6,
+      "name": {
+        "japanese": "[チェーンコンボ]立ち中P（胸破殺）中",
+        "english": "[チェーンコンボ]立ち中P（胸破殺）中",
+        "japanese_base": "[チェーンコンボ]立ち中P（胸破殺）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-9",
+        "recovery": 12,
+        "on_hit": 7,
+        "on_block": 2
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 375,
+        "loss_on_guard": -750,
+        "loss_on_punish": -1000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 7,
+      "name": {
+        "japanese": "立ち中K（伸腿蹴）中",
+        "english": "立ち中K（伸腿蹴）中",
+        "japanese_base": "立ち中K（伸腿蹴）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-105-6, 8-10",
+        "recovery": 17,
+        "on_hit": 3,
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -6000
+      },
+      "sa_gain": 1050
+    },
+    {
+      "id": 8,
+      "name": {
+        "japanese": "[チェーンコンボ]立ち中K（伸腿蹴）中",
+        "english": "[チェーンコンボ]立ち中K（伸腿蹴）中",
+        "japanese_base": "[チェーンコンボ]立ち中K（伸腿蹴）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-105-6, 8-10",
+        "recovery": 17,
+        "on_hit": 3,
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1000,
+        "loss_on_punish": -1500
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 9,
+      "name": {
+        "japanese": "立ち強P（蜘殺）強",
+        "english": "立ち強P（蜘殺）強",
+        "japanese_base": "立ち強P（蜘殺）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-12",
+        "recovery": 24,
+        "on_hit": -1,
+        "on_block": -5
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "強制立ち効果"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 10,
+      "name": {
+        "japanese": "[チェーンコンボ]立ち強P（蜘殺）強",
+        "english": "[チェーンコンボ]立ち強P（蜘殺）強",
+        "japanese_base": "[チェーンコンボ]立ち強P（蜘殺）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-12",
+        "recovery": 24,
+        "on_hit": "D",
+        "on_block": -5
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1250,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 11,
+      "name": {
+        "japanese": "立ち強K（空耀脚）強",
+        "english": "立ち強K（空耀脚）強",
+        "japanese_base": "立ち強K（空耀脚）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 17,
+        "active": "17-20",
+        "recovery": 19,
+        "on_hit": 2,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "パニッシュカウンター、空中カウンター/パニッシュカウンター時吹き飛びダウン空中パニッシュカウンター時吹き飛び時間延長"
+      },
+      "drive_system": {
+        "gain_on_hit": 4000,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 12,
+      "name": {
+        "japanese": "[チェーンコンボ]立ち強K（空耀脚）強",
+        "english": "[チェーンコンボ]立ち強K（空耀脚）強",
+        "japanese_base": "[チェーンコンボ]立ち強K（空耀脚）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "standing_normal",
+      "frames": {
+        "startup": 17,
+        "active": "17-20",
+        "recovery": 19,
+        "on_hit": "D",
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -2500
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 13,
+      "name": {
+        "japanese": "しゃがみ弱P（狙腓打）弱",
+        "english": "しゃがみ弱P（狙腓打）弱",
+        "japanese_base": "しゃがみ弱P（狙腓打）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 4,
+        "active": "4-6",
+        "recovery": 8,
+        "on_hit": 4,
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "連打キャンセル対応"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 14,
+      "name": {
+        "japanese": "[チェーンコンボ]しゃがみ弱P（狙腓打）弱",
+        "english": "[チェーンコンボ]しゃがみ弱P（狙腓打）弱",
+        "japanese_base": "[チェーンコンボ]しゃがみ弱P（狙腓打）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 4,
+        "active": "4-6",
+        "recovery": 8,
+        "on_hit": 4,
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 100,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "連打キャンセル対応空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 62,
+        "loss_on_guard": -125,
+        "loss_on_punish": -500
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 15,
+      "name": {
+        "japanese": "しゃがみ弱K（踵打）弱",
+        "english": "しゃがみ弱K（踵打）弱",
+        "japanese_base": "しゃがみ弱K（踵打）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 8,
+        "on_hit": 3,
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 200,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "下",
+        "notes": "連打キャンセル対応"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 16,
+      "name": {
+        "japanese": "[チェーンコンボ]しゃがみ弱K（踵打）弱",
+        "english": "[チェーンコンボ]しゃがみ弱K（踵打）弱",
+        "japanese_base": "[チェーンコンボ]しゃがみ弱K（踵打）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 8,
+        "on_hit": 3,
+        "on_block": -1
+      },
+      "properties": {
+        "damage": 100,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "下",
+        "notes": "連打キャンセル対応空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 62,
+        "loss_on_guard": -125,
+        "loss_on_punish": -500
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 17,
+      "name": {
+        "japanese": "しゃがみ中P（妖撞）中",
+        "english": "しゃがみ中P（妖撞）中",
+        "japanese_base": "しゃがみ中P（妖撞）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-9",
+        "recovery": 14,
+        "on_hit": 5,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "空振り時硬直1F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 18,
+      "name": {
+        "japanese": "[チェーンコンボ]しゃがみ中P（妖撞）中",
+        "english": "[チェーンコンボ]しゃがみ中P（妖撞）中",
+        "japanese_base": "[チェーンコンボ]しゃがみ中P（妖撞）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-9",
+        "recovery": 14,
+        "on_hit": 5,
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "空振り時硬直1F増加空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 375,
+        "loss_on_guard": -750,
+        "loss_on_punish": -1000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 19,
+      "name": {
+        "japanese": "しゃがみ中K（剥影脚）中",
+        "english": "しゃがみ中K（剥影脚）中",
+        "japanese_base": "しゃがみ中K（剥影脚）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-10",
+        "recovery": 19,
+        "on_hit": 1,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "下",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 20,
+      "name": {
+        "japanese": "[チェーンコンボ]しゃがみ中K（剥影脚）中",
+        "english": "[チェーンコンボ]しゃがみ中K（剥影脚）中",
+        "japanese_base": "[チェーンコンボ]しゃがみ中K（剥影脚）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-10",
+        "recovery": 19,
+        "on_hit": 1,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "始動補正20%",
+        "attribute": "下",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -500,
+        "loss_on_punish": -1000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 21,
+      "name": {
+        "japanese": "しゃがみ強P（穿開脚）強",
+        "english": "しゃがみ強P（穿開脚）強",
+        "japanese_base": "しゃがみ強P（穿開脚）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-11",
+        "recovery": 23,
+        "on_hit": 3,
+        "on_block": -11
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "強制立ち効果空中パニッシュカウンター時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 22,
+      "name": {
+        "japanese": "[チェーンコンボ]しゃがみ強P（穿開脚）強",
+        "english": "[チェーンコンボ]しゃがみ強P（穿開脚）強",
+        "japanese_base": "[チェーンコンボ]しゃがみ強P（穿開脚）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 8,
+        "active": "8-11",
+        "recovery": 23,
+        "on_hit": "D",
+        "on_block": -11
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "ヒット時ジャンプキャンセル可"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1250,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 23,
+      "name": {
+        "japanese": "しゃがみ強K（刈脚）強",
+        "english": "しゃがみ強K（刈脚）強",
+        "japanese_base": "しゃがみ強K（刈脚）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-12",
+        "recovery": 23,
+        "on_hit": "D",
+        "on_block": -11
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "下",
+        "notes": "パニッシュカウンター時ダウン時間増加、ハードノックダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 3000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 24,
+      "name": {
+        "japanese": "[チェーンコンボ]しゃがみ強K（刈脚）強",
+        "english": "[チェーンコンボ]しゃがみ強K（刈脚）強",
+        "japanese_base": "[チェーンコンボ]しゃがみ強K（刈脚）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "crouching_normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-12",
+        "recovery": 23,
+        "on_hit": "D",
+        "on_block": -11
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "下",
+        "notes": "パニッシュカウンター時ダウン時間増加、ハードノックダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 750,
+        "loss_on_guard": -1000,
+        "loss_on_punish": -2500
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 25,
+      "name": {
+        "japanese": "ジャンプ弱P（空形殺）（ジャンプ中に）弱",
+        "english": "ジャンプ弱P（空形殺）（ジャンプ中に）弱",
+        "japanese_base": "ジャンプ弱P（空形殺）（ジャンプ中に）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-10",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 26,
+      "name": {
+        "japanese": "[チェーンコンボ]ジャンプ弱P（空形殺）（ジャンプ中に）弱",
+        "english": "[チェーンコンボ]ジャンプ弱P（空形殺）（ジャンプ中に）弱",
+        "japanese_base": "[チェーンコンボ]ジャンプ弱P（空形殺）（ジャンプ中に）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-10",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 100,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 125,
+        "loss_on_guard": -375,
+        "loss_on_punish": -500
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 27,
+      "name": {
+        "japanese": "ジャンプ弱K（膝空打）（ジャンプ中に）弱",
+        "english": "ジャンプ弱K（膝空打）（ジャンプ中に）弱",
+        "japanese_base": "ジャンプ弱K（膝空打）（ジャンプ中に）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 4,
+        "active": "4-9",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "めくり性能"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1500,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 300
+    },
+    {
+      "id": 28,
+      "name": {
+        "japanese": "[チェーンコンボ]ジャンプ弱K（膝空打）（ジャンプ中に）弱",
+        "english": "[チェーンコンボ]ジャンプ弱K（膝空打）（ジャンプ中に）弱",
+        "japanese_base": "[チェーンコンボ]ジャンプ弱K（膝空打）（ジャンプ中に）弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 4,
+        "active": "4-9",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 100,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "めくり性能空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 125,
+        "loss_on_guard": -375,
+        "loss_on_punish": -500
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 29,
+      "name": {
+        "japanese": "ジャンプ中P（空洛刃）（ジャンプ中に）中",
+        "english": "ジャンプ中P（空洛刃）（ジャンプ中に）中",
+        "japanese_base": "ジャンプ中P（空洛刃）（ジャンプ中に）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-11",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 30,
+      "name": {
+        "japanese": "[チェーンコンボ]ジャンプ中P（空洛刃）（ジャンプ中に）中",
+        "english": "[チェーンコンボ]ジャンプ中P（空洛刃）（ジャンプ中に）中",
+        "japanese_base": "[チェーンコンボ]ジャンプ中P（空洛刃）（ジャンプ中に）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 7,
+        "active": "7-11",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -625,
+        "loss_on_punish": -1000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 31,
+      "name": {
+        "japanese": "ジャンプ中K（被陰脚）（ジャンプ中に）中",
+        "english": "ジャンプ中K（被陰脚）（ジャンプ中に）中",
+        "japanese_base": "ジャンプ中K（被陰脚）（ジャンプ中に）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-11",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "めくり性能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 32,
+      "name": {
+        "japanese": "[チェーンコンボ]ジャンプ中K（被陰脚）（ジャンプ中に）中",
+        "english": "[チェーンコンボ]ジャンプ中K（被陰脚）（ジャンプ中に）中",
+        "japanese_base": "[チェーンコンボ]ジャンプ中K（被陰脚）（ジャンプ中に）中"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-11",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "めくり性能空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 250,
+        "loss_on_guard": -625,
+        "loss_on_punish": -1000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 33,
+      "name": {
+        "japanese": "ジャンプ強P（空震脚）（ジャンプ中に）強",
+        "english": "ジャンプ強P（空震脚）（ジャンプ中に）強",
+        "japanese_base": "ジャンプ強P（空震脚）（ジャンプ中に）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 12,
+        "active": "12-17",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "めくり性能叩きつけダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 34,
+      "name": {
+        "japanese": "[チェーンコンボ]ジャンプ強P（空震脚）（ジャンプ中に）強",
+        "english": "[チェーンコンボ]ジャンプ強P（空震脚）（ジャンプ中に）強",
+        "japanese_base": "[チェーンコンボ]ジャンプ強P（空震脚）（ジャンプ中に）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 12,
+        "active": "12-17",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 700,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "めくり性能叩きつけダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1000,
+        "loss_on_punish": -1250
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 35,
+      "name": {
+        "japanese": "ジャンプ強K（玄空蹴）（ジャンプ中に）強",
+        "english": "ジャンプ強K（玄空蹴）（ジャンプ中に）強",
+        "japanese_base": "ジャンプ強K（玄空蹴）（ジャンプ中に）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-15",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 36,
+      "name": {
+        "japanese": "[チェーンコンボ]ジャンプ強K（玄空蹴）（ジャンプ中に）強",
+        "english": "[チェーンコンボ]ジャンプ強K（玄空蹴）（ジャンプ中に）強",
+        "japanese_base": "[チェーンコンボ]ジャンプ強K（玄空蹴）（ジャンプ中に）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-15",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1000,
+        "loss_on_punish": -1250
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 37,
+      "name": {
+        "japanese": "垂直ジャンプ強K（横圧殺）（垂直ジャンプ中に）強",
+        "english": "垂直ジャンプ強K（横圧殺）（垂直ジャンプ中に）強",
+        "japanese_base": "垂直ジャンプ強K（横圧殺）（垂直ジャンプ中に）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-13",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 38,
+      "name": {
+        "japanese": "[チェーンコンボ]垂直ジャンプ強K（横圧殺）（垂直ジャンプ中に）強",
+        "english": "[チェーンコンボ]垂直ジャンプ強K（横圧殺）（垂直ジャンプ中に）強",
+        "japanese_base": "[チェーンコンボ]垂直ジャンプ強K（横圧殺）（垂直ジャンプ中に）強"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 10,
+        "active": "10-13",
+        "recovery": "着地後3",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 500,
+        "loss_on_guard": -1000,
+        "loss_on_punish": -1250
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 39,
+      "name": {
+        "japanese": "狂背掌中",
+        "english": "狂背掌中",
+        "japanese_base": "狂背掌中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 8,
+        "active": "8-10",
+        "recovery": 17,
+        "on_hit": 4,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -4000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 40,
+      "name": {
+        "japanese": "[チェーンコンボ]狂背掌中",
+        "english": "[チェーンコンボ]狂背掌中",
+        "japanese_base": "[チェーンコンボ]狂背掌中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 8,
+        "active": "8-10",
+        "recovery": 17,
+        "on_hit": 4,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 375,
+        "loss_on_guard": -750,
+        "loss_on_punish": -1000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 41,
+      "name": {
+        "japanese": "殲廻脚中",
+        "english": "殲廻脚中",
+        "japanese_base": "殲廻脚中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 21,
+        "active": "21-22",
+        "recovery": "※23",
+        "on_hit": 2,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "※空振り時硬直2F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 1500,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 42,
+      "name": {
+        "japanese": "[チェーンコンボ]殲廻脚中",
+        "english": "[チェーンコンボ]殲廻脚中",
+        "japanese_base": "[チェーンコンボ]殲廻脚中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 21,
+        "active": "21-22",
+        "recovery": "※23",
+        "on_hit": "D",
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "中",
+        "notes": "※空振り時硬直2F増加叩きつけダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 375,
+        "loss_on_guard": -625,
+        "loss_on_punish": -1250
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 43,
+      "name": {
+        "japanese": "連剋脚強",
+        "english": "連剋脚強",
+        "japanese_base": "連剋脚強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 15,
+        "active": "15-2515-17, 23-25",
+        "recovery": 20,
+        "on_hit": 2,
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "空中ヒット時吹き飛びダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2500,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 44,
+      "name": {
+        "japanese": "[チェーンコンボ]連剋脚強",
+        "english": "[チェーンコンボ]連剋脚強",
+        "japanese_base": "[チェーンコンボ]連剋脚強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 15,
+        "active": "15-2515-17, 23-25",
+        "recovery": 20,
+        "on_hit": "D",
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 625,
+        "loss_on_guard": -1250,
+        "loss_on_punish": -2500
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 45,
+      "name": {
+        "japanese": "鉤鎌斬強",
+        "english": "鉤鎌斬強",
+        "japanese_base": "鉤鎌斬強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": "10-2110-12, 19-21",
+        "recovery": 19,
+        "on_hit": 2,
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "2段目空中ヒット時床バウンド"
+      },
+      "drive_system": {
+        "gain_on_hit": 3500,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -8000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 46,
+      "name": {
+        "japanese": "[チェーンコンボ]鉤鎌斬強",
+        "english": "[チェーンコンボ]鉤鎌斬強",
+        "japanese_base": "[チェーンコンボ]鉤鎌斬強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": "10-2110-12, 19-21",
+        "recovery": 19,
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "C",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "2段目空中ヒット時床バウンド"
+      },
+      "drive_system": {
+        "gain_on_hit": 875,
+        "loss_on_guard": -750,
+        "loss_on_punish": -2000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 47,
+      "name": {
+        "japanese": "死紋蹴（2段目）中強",
+        "english": "死紋蹴（2段目）中強",
+        "japanese_base": "死紋蹴（2段目）中強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 12,
+        "active": "12-14",
+        "recovery": 19,
+        "on_hit": "D",
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 48,
+      "name": {
+        "japanese": "死紋蹴（3段目）中強強",
+        "english": "死紋蹴（3段目）中強強",
+        "japanese_base": "死紋蹴（3段目）中強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 17,
+        "active": "17-19",
+        "recovery": 27,
+        "on_hit": "D",
+        "on_block": -16
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA※",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "※ヒット時のみSAでキャンセル可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -1000,
+        "loss_on_punish": -7000
+      },
+      "sa_gain": 500
+    },
+    {
+      "id": 49,
+      "name": {
+        "japanese": "弱 風破刃弱",
+        "english": "弱 風破刃弱",
+        "japanese_base": "弱 風破刃弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 10,
+        "active": "10-13",
+        "recovery": "※21",
+        "on_hit": "D",
+        "on_block": -4
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "8-13F　相殺判定10F目で風破ストックが1増加※空振り時硬直2F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 50,
+      "name": {
+        "japanese": "中 風破刃中",
+        "english": "中 風破刃中",
+        "japanese_base": "中 風破刃中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 13,
+        "active": "13-16",
+        "recovery": 21,
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "11-16F　相殺判定13F目で風破ストックが1増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 51,
+      "name": {
+        "japanese": "強 風破刃強",
+        "english": "強 風破刃強",
+        "japanese_base": "強 風破刃強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 25,
+        "active": "25-29",
+        "recovery": 19,
+        "on_hit": "D",
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "23-28F　相殺判定25F目で風破ストックが1増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 52,
+      "name": {
+        "japanese": "OD 風破刃",
+        "english": "OD 風破刃",
+        "japanese_base": "OD 風破刃"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 12,
+        "active": "12-17",
+        "recovery": 21,
+        "on_hit": "D",
+        "on_block": -12
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA2",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "12-17F　相殺判定14F目で風破ストックが1増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 53,
+      "name": {
+        "japanese": "歳破衝弱",
+        "english": "歳破衝弱",
+        "japanese_base": "歳破衝弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": null,
+        "recovery": "全体 45",
+        "on_hit": -2,
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 54,
+      "name": {
+        "japanese": "[強化版]歳破衝弱",
+        "english": "[強化版]歳破衝弱",
+        "japanese_base": "[強化版]歳破衝弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 16,
+        "active": null,
+        "recovery": "全体 45",
+        "on_hit": 1,
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3※",
+        "combo_scaling": "始動補正20%コンボ補正20%",
+        "attribute": "上・弾",
+        "notes": "※風破ストックがある時に[強化版]暗剣殺 or [強化版]五黄殺 に派生可能同じ技は2回使えない"
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -3000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 55,
+      "name": {
+        "japanese": "OD 歳破衝弱中",
+        "english": "OD 歳破衝弱中",
+        "japanese_base": "OD 歳破衝弱中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 11,
+        "active": null,
+        "recovery": "全体 38",
+        "on_hit": "D",
+        "on_block": -2
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "SA2※",
+        "combo_scaling": "始動補正20%コンボ補正20%",
+        "attribute": "上・弾",
+        "notes": "※風破ストックがある時にOD暗剣殺 or OD五黄殺 に派生可能同じ技は2回使えない"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 56,
+      "name": {
+        "japanese": "暗剣殺中",
+        "english": "暗剣殺中",
+        "japanese_base": "暗剣殺中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 24,
+        "active": "24-27",
+        "recovery": 19,
+        "on_hit": 5,
+        "on_block": -10
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3",
+        "combo_scaling": "始動補正20%コンボ補正20%",
+        "attribute": "上",
+        "notes": "8-27F空中判定空中ヒット時叩きつけダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 57,
+      "name": {
+        "japanese": "[強化版]暗剣殺中",
+        "english": "[強化版]暗剣殺中",
+        "japanese_base": "[強化版]暗剣殺中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 24,
+        "active": "24-27",
+        "recovery": 19,
+        "on_hit": 8,
+        "on_block": -10
+      },
+      "properties": {
+        "damage": 600,
+        "cancel": "SA3※",
+        "combo_scaling": "始動補正20%コンボ補正20%",
+        "attribute": "上",
+        "notes": "8-27F空中判定※風破ストックがある時に[強化版]歳破衝  or [強化版]五黄殺 に派生可能同じ技は2回使えない空中ヒット時叩きつけダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 58,
+      "name": {
+        "japanese": "OD 暗剣殺弱強",
+        "english": "OD 暗剣殺弱強",
+        "japanese_base": "OD 暗剣殺弱強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 24,
+        "active": "24-27",
+        "recovery": 19,
+        "on_hit": 9,
+        "on_block": -10
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "SA2※",
+        "combo_scaling": "始動補正20%コンボ補正20%",
+        "attribute": "上",
+        "notes": "8-27F空中判定※風破ストックがある時にOD歳破衝 or OD五黄殺 に派生可能同じ技は2回使えない空中ヒット時床バウンド"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 59,
+      "name": {
+        "japanese": "五黄殺強",
+        "english": "五黄殺強",
+        "japanese_base": "五黄殺強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 18,
+        "active": "18-21",
+        "recovery": 27,
+        "on_hit": "D",
+        "on_block": -11
+      },
+      "properties": {
+        "damage": 1000,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 60,
+      "name": {
+        "japanese": "[強化版]五黄殺強",
+        "english": "[強化版]五黄殺強",
+        "japanese_base": "[強化版]五黄殺強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 18,
+        "active": "18-3618-21, 34-36",
+        "recovery": 27,
+        "on_hit": "D",
+        "on_block": -10
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "SA3※",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "※風破ストックがある時に[強化版]歳破衝 or[強化版] 暗剣殺 に派生可能同じ技は2回使えない"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 700
+    },
+    {
+      "id": 61,
+      "name": {
+        "japanese": "OD 五黄殺中強",
+        "english": "OD 五黄殺中強",
+        "japanese_base": "OD 五黄殺中強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 18,
+        "active": "18-6918-21, 34-36, 65-69",
+        "recovery": 28,
+        "on_hit": "D",
+        "on_block": -16
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "SA2※",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "※風破ストックがある時にOD歳破衝 or OD 暗剣殺 に派生可能同じ技は2回使えない"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -6000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 800
+    },
+    {
+      "id": 62,
+      "name": {
+        "japanese": "弱 天穿輪弱",
+        "english": "弱 天穿輪弱",
+        "japanese_base": "弱 天穿輪弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 11,
+        "active": "11-1711-13, 16-17",
+        "recovery": 22,
+        "on_hit": "D",
+        "on_block": -8
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "SA3",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 63,
+      "name": {
+        "japanese": "中 天穿輪中",
+        "english": "中 天穿輪中",
+        "japanese_base": "中 天穿輪中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-245-12, 18-19, 23-24",
+        "recovery": "着地後14",
+        "on_hit": "D",
+        "on_block": -37
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "1-8F　空中判定の打撃・空弾属性に対して無敵8-48F　空中判定"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 64,
+      "name": {
+        "japanese": "強 天穿輪強",
+        "english": "強 天穿輪強",
+        "japanese_base": "強 天穿輪強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-245-12, 18-19, 23-24",
+        "recovery": "着地後14",
+        "on_hit": "D",
+        "on_block": -37
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "1-8F　空中判定の打撃・空弾属性に対して無敵8-48F　空中判定"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -4000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 1000
+    },
+    {
+      "id": 65,
+      "name": {
+        "japanese": "OD 天穿輪",
+        "english": "OD 天穿輪",
+        "japanese_base": "OD 天穿輪"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 6,
+        "active": "6-246-9, 11-12, 19-20, 23-24",
+        "recovery": "着地後19",
+        "on_hit": "D",
+        "on_block": -48
+      },
+      "properties": {
+        "damage": 1600,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "1-9F　完全無敵ヒット時のみ最終段に派生"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -4000,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 900
+    },
+    {
+      "id": 66,
+      "name": {
+        "japanese": "疾空閃（前ジャンプ中に）",
+        "english": "疾空閃（前ジャンプ中に）",
+        "japanese_base": "疾空閃（前ジャンプ中に）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 18,
+        "active": "18-着地まで",
+        "recovery": "着地後18",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 400,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 67,
+      "name": {
+        "japanese": "OD 疾空閃（前ジャンプ中に）",
+        "english": "OD 疾空閃（前ジャンプ中に）",
+        "japanese_base": "OD 疾空閃（前ジャンプ中に）"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 16,
+        "active": "16-着地まで",
+        "recovery": "着地後18",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -3000,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 68,
+      "name": {
+        "japanese": "死連閃（疾空閃後に）",
+        "english": "死連閃（疾空閃後に）",
+        "japanese_base": "死連閃（疾空閃後に）"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": 6,
+        "active": "6-386-9, 14-17,35-38",
+        "recovery": "着地後12",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 1800,
+        "loss_on_guard": null,
+        "loss_on_punish": null
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 69,
+      "name": {
+        "japanese": "OD 死連閃（疾空閃後に）",
+        "english": "OD 死連閃（疾空閃後に）",
+        "japanese_base": "OD 死連閃（疾空閃後に）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 6,
+        "active": "6-386-9, 14-17,35-38",
+        "recovery": "着地後7",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 900,
+        "cancel": "",
+        "combo_scaling": "コンボ補正20%",
+        "attribute": "上",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": null,
+        "loss_on_punish": null
+      },
+      "sa_gain": 600
+    },
+    {
+      "id": 70,
+      "name": {
+        "japanese": "SA1 殺界風破斬",
+        "english": "SA1 殺界風破斬",
+        "japanese_base": "SA1 殺界風破斬"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 7,
+        "active": null,
+        "recovery": "全体 201",
+        "on_hit": "D",
+        "on_block": -32
+      },
+      "properties": {
+        "damage": 1800,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上・弾",
+        "notes": "1-8F　打撃・投げに対して無敵最低保障ダメージ30％カウンター/パニッシュカウンターで数値が変動しないボタンホールドで風破ストックを1つ消費し300ダメージアップ"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -2500,
+        "loss_on_punish": -5000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 71,
+      "name": {
+        "japanese": "SA2 風水エンジン",
+        "english": "SA2 風水エンジン",
+        "japanese_base": "SA2 風水エンジン"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 7",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "発動中地上、空中でチェーンコンボが可能同じ強度もしくは上の強度のPorKに移行可能、逆走は出来ない全ての通常技と、一部の特殊技が必殺技キャンセル可能になる暗転中ボタンホールドで突進に派生"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 72,
+      "name": {
+        "japanese": "SA2 風水エンジン（突進）（風水エンジン発動暗転中に）ホールド",
+        "english": "SA2 風水エンジン（突進）（風水エンジン発動暗転中に）ホールド",
+        "japanese_base": "SA2 風水エンジン（突進）（風水エンジン発動暗転中に）ホールド"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 9,
+        "active": "9-19",
+        "recovery": 26,
+        "on_hit": -4,
+        "on_block": -17
+      },
+      "properties": {
+        "damage": 300,
+        "cancel": "※",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "最低保障ダメージ40％カウンター/パニッシュカウンターで数値が変動しないボタンホールドで突進空中ヒット時吹き飛びダウン通常技、特殊技、必殺技、SA、ドライブインパクトでキャンセル可能"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 73,
+      "name": {
+        "japanese": "SA3 回旋断界落",
+        "english": "SA3 回旋断界落",
+        "japanese_base": "SA3 回旋断界落"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 10,
+        "active": "10-13",
+        "recovery": 52,
+        "on_hit": "D",
+        "on_block": -31
+      },
+      "properties": {
+        "damage": 4000,
+        "cancel": "",
+        "combo_scaling": "※即時補正10％",
+        "attribute": "上",
+        "notes": "1-13F　完全無敵最低保障ダメージ50％カウンター/パニッシュカウンターで数値が変動しない※必殺技キャンセル時のみ適用"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -7500,
+        "loss_on_punish": -15000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 74,
+      "name": {
+        "japanese": "CA 回旋断界落（体力25%以下で）",
+        "english": "CA 回旋断界落（体力25%以下で）",
+        "japanese_base": "CA 回旋断界落（体力25%以下で）"
+      },
+      "category": {
+        "japanese": "スーパーアーツ",
+        "english": "Super Arts"
+      },
+      "type": "super_art",
+      "frames": {
+        "startup": 10,
+        "active": "10-13",
+        "recovery": 52,
+        "on_hit": "D",
+        "on_block": -31
+      },
+      "properties": {
+        "damage": 4500,
+        "cancel": "",
+        "combo_scaling": "※即時補正10％",
+        "attribute": "上",
+        "notes": "1-13F　完全無敵最低保障ダメージ50％カウンター/パニッシュカウンターで数値が変動しない※必殺技キャンセル時のみ適用"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -10000,
+        "loss_on_punish": -20000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 75,
+      "name": {
+        "japanese": "蜘穿脚（近距離で）弱弱",
+        "english": "蜘穿脚（近距離で）弱弱",
+        "japanese_base": "蜘穿脚（近距離で）弱弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 23,
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "即時補正20%",
+        "attribute": "",
+        "notes": "パニッシュカウンター時以下の性能変化・ダメージ2040・SAゲージ4000増加・ハードノックダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": 0,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 76,
+      "name": {
+        "japanese": "苛影脚（近距離で）弱弱",
+        "english": "苛影脚（近距離で）弱弱",
+        "japanese_base": "苛影脚（近距離で）弱弱"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": 23,
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "即時補正20%",
+        "attribute": "",
+        "notes": "パニッシュカウンター時以下の性能変化・ダメージ2040・SAゲージ4000増加・ハードノックダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": 0,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 77,
+      "name": {
+        "japanese": "斬架閃（ジャンプ中に）（近距離で）弱弱",
+        "english": "斬架閃（ジャンプ中に）（近距離で）弱弱",
+        "japanese_base": "斬架閃（ジャンプ中に）（近距離で）弱弱"
+      },
+      "category": {
+        "japanese": "通常技",
+        "english": "Normal Attacks"
+      },
+      "type": "jumping_normal",
+      "frames": {
+        "startup": 5,
+        "active": "5-7",
+        "recovery": "着地後3",
+        "on_hit": "D",
+        "on_block": null
+      },
+      "properties": {
+        "damage": 1200,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "パニッシュカウンター時以下の性能変化・ダメージ2040・SAゲージ4000増加・ハードノックダウン"
+      },
+      "drive_system": {
+        "gain_on_hit": 2000,
+        "loss_on_guard": 0,
+        "loss_on_punish": -10000
+      },
+      "sa_gain": 2000
+    },
+    {
+      "id": 78,
+      "name": {
+        "japanese": "前方ステップ",
+        "english": "前方ステップ",
+        "japanese_base": "前方ステップ"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 22",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": ""
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 79,
+      "name": {
+        "japanese": "後方ステップ",
+        "english": "後方ステップ",
+        "japanese_base": "後方ステップ"
+      },
+      "category": {
+        "japanese": "特殊技",
+        "english": "Special Normals"
+      },
+      "type": "special_normal",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 23",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "1-15F 投げ無敵"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 80,
+      "name": {
+        "japanese": "ドライブインパクト（殺環蹴）強強",
+        "english": "ドライブインパクト（殺環蹴）強強",
+        "japanese_base": "ドライブインパクト（殺環蹴）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 26,
+        "active": "26-27",
+        "recovery": 35,
+        "on_hit": "D",
+        "on_block": -3
+      },
+      "properties": {
+        "damage": 800,
+        "cancel": "",
+        "combo_scaling": "始動補正20%",
+        "attribute": "上",
+        "notes": "1-27F　 アーマー判定（2回）パニッシュカウンター、もしくはアーマー成立後にヒットで以下の性能変化・地上ヒット膝崩れ・空中ヒットきりもみダウン・SAゲージ3000増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": -5000,
+        "loss_on_punish": -15000
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 81,
+      "name": {
+        "japanese": "[ガード時]ドライブリバーサル（廻躱襲）（ガード中 or ドライブパリィ成立中に）強強",
+        "english": "[ガード時]ドライブリバーサル（廻躱襲）（ガード中 or ドライブパリィ成立中に）強強",
+        "japanese_base": "[ガード時]ドライブリバーサル（廻躱襲）（ガード中 or ドライブパリィ成立中に）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 20,
+        "active": "20-22",
+        "recovery": 26,
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "リカバリアブルダメージ1-22F 完全無敵ヒット時硬直5F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 82,
+      "name": {
+        "japanese": "[起き上がり時]ドライブリバーサル（廻躱襲）（起き上がり時に）強強",
+        "english": "[起き上がり時]ドライブリバーサル（廻躱襲）（起き上がり時に）強強",
+        "japanese_base": "[起き上がり時]ドライブリバーサル（廻躱襲）（起き上がり時に）強強"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 18,
+        "active": "18-20",
+        "recovery": 26,
+        "on_hit": "D",
+        "on_block": -6
+      },
+      "properties": {
+        "damage": 500,
+        "cancel": "",
+        "combo_scaling": "",
+        "attribute": "上",
+        "notes": "リカバリアブルダメージ1-20F 完全無敵ヒット時硬直5F増加"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 83,
+      "name": {
+        "japanese": "ドライブパリィ中中",
+        "english": "ドライブパリィ中中",
+        "japanese_base": "ドライブパリィ中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 1,
+        "active": "[※2] 1-12",
+        "recovery": 33,
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "※1",
+        "combo_scaling": "",
+        "attribute": "",
+        "notes": "※1 動作の4F目からドライブラッシュでキャンセル可※2 ボタンホールドでパリィの持続を延長可硬直部分はガードのみ可動作中常に被パニッシュカウンター判定"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 84,
+      "name": {
+        "japanese": "ジャストパリィ（打撃）ガード方向中中",
+        "english": "ジャストパリィ（打撃）ガード方向中中",
+        "japanese_base": "ジャストパリィ（打撃）ガード方向中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 1,
+        "active": null,
+        "recovery": 1,
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "始動補正50％",
+        "attribute": "",
+        "notes": "相手の攻撃に対応した方向入力を行った状態でパリィを入力し、入力したフレーム、もしくはその次のフレームで攻撃を受けると成立する（上段/中段攻撃に対して←方向、下段攻撃に対しては↙方向)方向が正しくなかった場合は通常のドライブパリィとなり、追加でDゲージが3000増加する硬直終了から5Fの間完全無敵 （パリィを継続した場合は無敵にならない）ジャストパリィを取られた側はキャンセルが出来なくなり、動作終了まで強制パニッシュカウンター"
+      },
+      "drive_system": {
+        "gain_on_hit": null,
+        "loss_on_guard": null,
+        "loss_on_punish": null
+      },
+      "sa_gain": null
+    },
+    {
+      "id": 85,
+      "name": {
+        "japanese": "ジャストパリィ（飛び道具）中中",
+        "english": "ジャストパリィ（飛び道具）中中",
+        "japanese_base": "ジャストパリィ（飛び道具）中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": 1,
+        "active": null,
+        "recovery": 10,
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "",
+        "combo_scaling": "始動補正50％",
+        "attribute": "",
+        "notes": "パリィを入力したフレーム、もしくはその次のフレームで攻撃を受けると成立する暗転演出が入らないジャストパリィを取られた側はキャンセルが出来なくなり、動作終了まで強制パニッシュカウンター"
+      },
+      "drive_system": {
+        "gain_on_hit": null,
+        "loss_on_guard": null,
+        "loss_on_punish": null
+      },
+      "sa_gain": null
+    },
+    {
+      "id": 86,
+      "name": {
+        "japanese": "パリィドライブラッシュ（ドライブパリィ中に）",
+        "english": "パリィドライブラッシュ（ドライブパリィ中に）",
+        "japanese_base": "パリィドライブラッシュ（ドライブパリィ中に）"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 45",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "※",
+        "combo_scaling": "乗算補正15％",
+        "attribute": "",
+        "notes": "暗転10F※動作9F目から攻撃行動にキャンセル可24F目からパリィ以外の行動でキャンセル可"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    },
+    {
+      "id": 87,
+      "name": {
+        "japanese": "キャンセルドライブラッシュ（必殺技キャンセル可能な攻撃ヒット中に）()中中",
+        "english": "キャンセルドライブラッシュ（必殺技キャンセル可能な攻撃ヒット中に）()中中",
+        "japanese_base": "キャンセルドライブラッシュ（必殺技キャンセル可能な攻撃ヒット中に）()中中"
+      },
+      "category": {
+        "japanese": "必殺技",
+        "english": "Special Moves"
+      },
+      "type": "special_move",
+      "frames": {
+        "startup": null,
+        "active": null,
+        "recovery": "全体 46",
+        "on_hit": null,
+        "on_block": null
+      },
+      "properties": {
+        "damage": 0,
+        "cancel": "※",
+        "combo_scaling": "乗算補正15％",
+        "attribute": "",
+        "notes": "暗転9F※動作10F目から攻撃行動にキャンセル可25F目からパリィ以外の行動でキャンセル可"
+      },
+      "drive_system": {
+        "gain_on_hit": 0,
+        "loss_on_guard": 0,
+        "loss_on_punish": 0
+      },
+      "sa_gain": 0
+    }
+  ]
+}

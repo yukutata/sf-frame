@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(docker compose:*)",
+      "WebFetch(domain:www.streetfighter.com)",
+      "Bash(grep:*)",
+      "Bash(python3:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(rm:*)",
+      "Bash(npm run dev:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python:*)",
+      "Bash(sed:*)"
+    ],
+    "deny": []
+  }
+}
