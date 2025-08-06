@@ -14,7 +14,8 @@
       "Bash(npm run dev:*)",
       "Bash(pip3 install:*)",
       "Bash(python:*)",
-      "Bash(sed:*)"
+      "Bash(sed:*)",
+      "Bash(git add:*)"
     ],
     "deny": []
   }
