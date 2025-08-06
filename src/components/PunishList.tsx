@@ -92,7 +92,7 @@ export const PunishList: React.FC<PunishListProps> = ({
           {defenderCharacterName}の確定反撃技 ({filteredPunishMoves.length}個)
         </h3>
         <div className="text-sm text-gray-600">
-          <span className="font-medium">{attackerMove.name.japanese}</span> のガード硬直差 
+          <span className="font-medium">{attackerMove.name.japanese}</span> のガード硬直差
           <span className="font-bold text-red-600 mx-1">
             {attackerMove.frames.on_block && typeof attackerMove.frames.on_block === 'number' && attackerMove.frames.on_block >= 0 ? '+' : ''}{attackerMove.frames.on_block}F
           </span>
@@ -120,12 +120,12 @@ export const PunishList: React.FC<PunishListProps> = ({
                   </span>
                 </div>
                 <div className="text-right">
-                  <div className="text-xs text-gray-500">確定フレーム</div>
+                  <div className="text-xs text-gray-500">猶予フレーム</div>
                   <div className="font-bold text-green-600">
-                    {attackerMove.frames.on_block && move.frames.startup && 
-                     typeof attackerMove.frames.on_block === 'number' && 
-                     typeof move.frames.startup === 'number' ? 
-                     Math.abs(attackerMove.frames.on_block) - move.frames.startup + 1 : '?'}F余裕
+                    {attackerMove.frames.on_block && move.frames.startup &&
+                     typeof attackerMove.frames.on_block === 'number' &&
+                     typeof move.frames.startup === 'number' ?
+                     Math.abs(attackerMove.frames.on_block) - move.frames.startup + 1 : '?'}F
                   </div>
                 </div>
               </div>
@@ -135,24 +135,24 @@ export const PunishList: React.FC<PunishListProps> = ({
                   <div className="text-gray-500 text-xs">発生</div>
                   <div className="font-bold text-blue-600">{move.frames.startup}F</div>
                 </div>
-                
+
                 <div className="bg-green-50 p-2 rounded border">
                   <div className="text-gray-500 text-xs">持続</div>
                   <div className="font-bold text-green-600">{move.frames.active}F</div>
                 </div>
-                
+
                 <div className="bg-purple-50 p-2 rounded border">
                   <div className="text-gray-500 text-xs">ダメージ</div>
                   <div className="font-bold text-purple-600">{move.properties.damage || '-'}</div>
                 </div>
-                
+
                 <div className="bg-yellow-50 p-2 rounded border">
                   <div className="text-gray-500 text-xs">ヒット硬直差</div>
                   <div className={`font-bold ${typeof move.frames.on_hit === 'number' && move.frames.on_hit >= 0 ? 'text-green-600' : 'text-red-600'}`}>
                     {typeof move.frames.on_hit === 'number' && move.frames.on_hit >= 0 ? '+' : ''}{move.frames.on_hit}F
                   </div>
                 </div>
-                
+
                 <div className="bg-red-50 p-2 rounded border">
                   <div className="text-gray-500 text-xs">ガード硬直差</div>
                   <div className={`font-bold ${typeof move.frames.on_block === 'number' && move.frames.on_block >= 0 ? 'text-green-600' : 'text-red-600'}`}>

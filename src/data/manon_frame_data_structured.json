@@ -946,7 +946,7 @@
         "on_block": null
       },
       "properties": {
-        "damage": "※2000",
+        "damage": 2000,
         "cancel": "",
         "combo_scaling": "",
         "attribute": "投",
@@ -979,7 +979,7 @@
         "on_block": null
       },
       "properties": {
-        "damage": "※2000",
+        "damage": 2000,
         "cancel": "",
         "combo_scaling": "",
         "attribute": "投",
@@ -1012,7 +1012,7 @@
         "on_block": null
       },
       "properties": {
-        "damage": "※2000",
+        "damage": 2000,
         "cancel": "",
         "combo_scaling": "",
         "attribute": "投",
@@ -1045,7 +1045,7 @@
         "on_block": null
       },
       "properties": {
-        "damage": "※2000",
+        "damage": 2000,
         "cancel": "",
         "combo_scaling": "",
         "attribute": "投",
@@ -1342,7 +1342,7 @@
         "on_block": -23
       },
       "properties": {
-        "damage": "※1350",
+        "damage": 1350,
         "cancel": "SA3",
         "combo_scaling": "",
         "attribute": "上",
@@ -1375,7 +1375,7 @@
         "on_block": -20
       },
       "properties": {
-        "damage": "※1400",
+        "damage": 1400,
         "cancel": "SA3",
         "combo_scaling": "",
         "attribute": "上",
@@ -1408,7 +1408,7 @@
         "on_block": -16
       },
       "properties": {
-        "damage": "※1500",
+        "damage": 1500,
         "cancel": "SA3",
         "combo_scaling": "",
         "attribute": "上",
@@ -1441,7 +1441,7 @@
         "on_block": -20
       },
       "properties": {
-        "damage": "※1500",
+        "damage": 1500,
         "cancel": "",
         "combo_scaling": "",
         "attribute": "上",

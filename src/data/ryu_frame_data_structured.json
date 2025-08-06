@@ -1184,7 +1184,7 @@
         "on_block": -23
       },
       "properties": {
-        "damage": "※1100",
+        "damage": 1100,
         "cancel": "SA3",
         "combo_scaling": "始動補正30%",
         "attribute": "上",
@@ -1217,7 +1217,7 @@
         "on_block": -32
       },
       "properties": {
-        "damage": "※1200",
+        "damage": 1200,
         "cancel": "SA3",
         "combo_scaling": "始動補正30%",
         "attribute": "上",
@@ -1250,7 +1250,7 @@
         "on_block": -36
       },
       "properties": {
-        "damage": "※1400",
+        "damage": 1400,
         "cancel": "SA3",
         "combo_scaling": "始動補正30%",
         "attribute": "上",

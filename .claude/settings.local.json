@@ -15,7 +15,10 @@
       "Bash(pip3 install:*)",
       "Bash(python:*)",
       "Bash(sed:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(for file in *.json)",
+      "Bash(do echo \"Checking $file:\")",
+      "Bash(done)"
     ],
     "deny": []
   }

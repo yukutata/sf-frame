@@ -723,7 +723,7 @@
         "active": "39-53",
         "recovery": 35,
         "on_hit": "D",
-        "on_block": "※-2"
+        "on_block": -2
       },
       "properties": {
         "damage": 800,
@@ -1749,7 +1749,7 @@
         "on_block": 4
       },
       "properties": {
-        "damage": "※800",
+        "damage": 800,
         "cancel": "SA2",
         "combo_scaling": "始動補正20%コンボ補正15%",
         "attribute": "上・弾",
