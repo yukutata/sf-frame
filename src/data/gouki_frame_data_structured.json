@@ -2720,7 +2720,7 @@
       },
       "type": "super_art",
       "frames": {
-        "startup": "6+0",
+        "startup": 6,
         "active": "6-27",
         "recovery": 57,
         "on_hit": "D",

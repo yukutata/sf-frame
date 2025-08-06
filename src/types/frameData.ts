@@ -4,11 +4,11 @@ export interface LocalizedName {
 }
 
 export interface FrameData {
-  startup: number | string | null;
+  startup: number | null;
   active: number | string | null;
   recovery: number | string | null;
   on_hit: number | string | null;
-  on_block: number | string | null;
+  on_block: number | null;
 }
 
 export interface MoveProperties {
@@ -35,7 +35,7 @@ export interface Move {
   id: number;
   name: MoveName;
   category: MoveCategory;
-  type: 'standing_normal' | 'crouching_normal' | 'jumping_normal' | 'normal' | 
+  type: 'standing_normal' | 'crouching_normal' | 'jumping_normal' | 'normal' |
         'special_normal' | 'special_move' | 'super_art' | 'throw' | 'system' | 'other';
   frames: FrameData;
   properties: MoveProperties;
@@ -59,7 +59,7 @@ export interface Character {
 export const getMovesbyCategory = (data: Character, categoryKey: string): Move[] => {
   const category = data.categories[categoryKey];
   if (!category) return [];
-  
+
   return category.moves.map(id => data.moves.find(move => move.id === id)).filter(Boolean) as Move[];
 };
 

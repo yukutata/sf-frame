@@ -1909,7 +1909,7 @@
       },
       "type": "super_art",
       "frames": {
-        "startup": "6+0",
+        "startup": 6,
         "active": "6-7",
         "recovery": 116,
         "on_hit": "D",
@@ -1942,7 +1942,7 @@
       },
       "type": "super_art",
       "frames": {
-        "startup": "6+0",
+        "startup": 6,
         "active": "6-7",
         "recovery": 116,
         "on_hit": "D",

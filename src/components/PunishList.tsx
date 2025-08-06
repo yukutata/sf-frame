@@ -105,7 +105,7 @@ export const PunishList: React.FC<PunishListProps> = ({
           .sort((a, b) => {
             const aStartup = typeof a.frames.startup === 'number' ? a.frames.startup : 999;
             const bStartup = typeof b.frames.startup === 'number' ? b.frames.startup : 999;
-            return aStartup - bStartup;
+            return bStartup - aStartup;
           }) // 発生フレームでソート
           .map((move, index) => (
             <div

@@ -2122,7 +2122,7 @@
       },
       "type": "special_move",
       "frames": {
-        "startup": "122※",
+        "startup": 122,
         "active": "122-131※",
         "recovery": "全体 44",
         "on_hit": null,
@@ -2155,7 +2155,7 @@
       },
       "type": "special_move",
       "frames": {
-        "startup": "124※",
+        "startup": 124,
         "active": "124-133※",
         "recovery": "全体 44",
         "on_hit": null,
@@ -2188,7 +2188,7 @@
       },
       "type": "special_move",
       "frames": {
-        "startup": "128※",
+        "startup": 128,
         "active": "128-137※",
         "recovery": "全体 44",
         "on_hit": null,
@@ -2221,7 +2221,7 @@
       },
       "type": "special_move",
       "frames": {
-        "startup": "122※",
+        "startup": 122,
         "active": "122-131、170-179※",
         "recovery": "全体 44",
         "on_hit": null,
@@ -2254,7 +2254,7 @@
       },
       "type": "special_move",
       "frames": {
-        "startup": "122※",
+        "startup": 122,
         "active": "122-131、128-137※",
         "recovery": "全体 44",
         "on_hit": null,
@@ -2287,7 +2287,7 @@
       },
       "type": "special_move",
       "frames": {
-        "startup": "124※",
+        "startup": 124,
         "active": "124-133、174-183※",
         "recovery": "全体 44",
         "on_hit": null,

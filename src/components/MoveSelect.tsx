@@ -106,8 +106,8 @@ export const MoveSelect: React.FC<MoveSelectProps> = ({
 
             <div className="bg-white p-2 rounded border">
               <div className="text-gray-500 text-xs">ガード硬直差</div>
-              <div className={`font-bold ${typeof moves[parseInt(selectedMove)].frames.on_block === 'number' && moves[parseInt(selectedMove)].frames.on_block >= 0 ? 'text-green-600' : 'text-red-600'}`}>
-                {typeof moves[parseInt(selectedMove)].frames.on_block === 'number' && moves[parseInt(selectedMove)].frames.on_block >= 0 ? '+' : ''}{moves[parseInt(selectedMove)].frames.on_block}F
+              <div className={`font-bold ${(moves[parseInt(selectedMove)].frames.on_block ?? 0) >= 0 ? 'text-green-600' : 'text-red-600'}`}>
+                {(moves[parseInt(selectedMove)].frames.on_block ?? 0) >= 0 ? '+' : ''}{moves[parseInt(selectedMove)].frames.on_block ?? 0}F
               </div>
             </div>
 
