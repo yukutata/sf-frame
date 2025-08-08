@@ -82,7 +82,7 @@ export const PunishList: React.FC<PunishListProps> = ({
     const startup = move.frames.startup;
     const onBlock = move.frames.on_block;
     return startup !== null && typeof startup === 'number' && startup > 3 &&
-           onBlock !== null;
+           (onBlock === null && move.properties.attribute === '投') && move.type !== 'jumping_normal';
   });
 
   return (
