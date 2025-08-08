@@ -81,8 +81,8 @@ export const PunishList: React.FC<PunishListProps> = ({
   const filteredPunishMoves = punishMoves.filter((move) => {
     const startup = move.frames.startup;
     const onBlock = move.frames.on_block;
-    return startup !== null && typeof startup === 'number' && startup > 3 &&
-           (onBlock === null && move.properties.attribute === '投') && move.type !== 'jumping_normal';
+    return startup !== null && typeof startup === 'number' && startup >= 4 &&
+           (onBlock !== null || move.properties.attribute === '投') && move.type !== 'jumping_normal';
   });
 
   return (
