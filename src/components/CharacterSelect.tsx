@@ -1,4 +1,3 @@
-import React from 'react';
 import { Character } from '../types/frameData';
 
 interface CharacterSelectProps {
@@ -9,13 +8,13 @@ interface CharacterSelectProps {
   id: string;
 }
 
-export const CharacterSelect: React.FC<CharacterSelectProps> = ({
+export const CharacterSelect = ({
   characters,
   selectedCharacter,
   onCharacterChange,
   label,
   id
-}) => {
+}: CharacterSelectProps) => {
   return (
     <div className="flex flex-col space-y-2">
       <label htmlFor={id} className="text-sm font-semibold text-white">

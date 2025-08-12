@@ -55,7 +55,6 @@ export interface Character {
   moves: Move[];
 }
 
-// Utility functions for working with frame data
 export const getMovesbyCategory = (data: Character, categoryKey: string): Move[] => {
   const category = data.categories[categoryKey];
   if (!category) return [];

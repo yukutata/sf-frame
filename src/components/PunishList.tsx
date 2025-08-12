@@ -106,7 +106,7 @@ export const PunishList: React.FC<PunishListProps> = ({
             const aStartup = typeof a.frames.startup === 'number' ? a.frames.startup : 999;
             const bStartup = typeof b.frames.startup === 'number' ? b.frames.startup : 999;
             return bStartup - aStartup;
-          }) // 発生フレームでソート
+          })
           .map((move, index) => (
             <div
               key={index}
